@@ -1,9 +1,7 @@
 //UDB020: Boligpriser efter område, ejendomskategori og priser
 // Enhed : Kr. pr. m2
 
-
-
-
+const data =
 [
     {
         "Kommuner": "København",
@@ -496,3 +494,5 @@
         "Ejerlejlighed": 27615
     }
 ]
+
+console.log(data)
