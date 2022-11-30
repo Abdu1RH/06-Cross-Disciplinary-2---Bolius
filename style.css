@@ -30,3 +30,11 @@ body {
     position: relative;
     z-index: 100;
 }
+
+#logoFooter{
+    border-radius: 4px;
+    padding: 10px;
+    width: 80px;
+    float: top;
+    position: relative;
+}
