@@ -6,7 +6,7 @@ h1 {
 body {
     margin: 0;
     font-family: "nationaleregular",sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.4;
     color: #000;
@@ -21,6 +21,7 @@ body {
     float: top;
     position: relative;
 
+
 }
 
 #header {
@@ -29,6 +30,23 @@ body {
     background: #fff;
     position: relative;
     z-index: 100;
+}
+
+#Search\ box {
+    margin: 0;
+    font-family: "nationaleregular",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #000;
+    text-align: left;
+    width: 100%;
+    box-shadow: 0px 0px 20px rgb(70 140 140 / 10%);
+    background: #fff;
+    position: relative;
+    z-index: 100;
+    padding: 22.4px;
+
 }
 
 #logoFooter{
