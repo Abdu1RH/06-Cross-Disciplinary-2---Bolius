@@ -14,11 +14,45 @@
 </header>
 <h1>Hvilken bolig passer til mig?</h1>
 
-<div class="spg" id="Spørgsmåll">
-    <div class = "header">
-        <h3 id="Spørgsmål">1.Hvilken kommune arbejder du i?</h3>
-         </div>
-        </div>
+<form id="Quiz" name="quiz">
+
+    <p>1) Hvilken kommune arbejder du i?</p>
+
+    <input id="kommune" placeholder="Fx Hvidovre" type="text">
+
+    <br>
+
+
+    <p>2) Hvad er din månedlige indkomst?</p>
+
+    <input id="indkomst" placeholder="Fx 10000" type="text">
+
+
+
+    <br>
+
+
+
+    <p>3) Har du en af følgende? </p>
+
+
+        <input type="radio" id="kæreste/partner" name="Question1" value="kæreste/partner">
+        <label for="kæreste/partner">Kæreste/partner</label> <br>
+
+        <input type="radio" id="Barn/børn" name="Question1" value="Barn/børn">
+        <label for="Barn/børn">Barn/børn</label> <br>
+
+        <input type="radio" id="Kæledyr" name="Question1" value="Kæledyr">
+        <label for="Kæledyr">Kæledyr</label> <br>
+
+        <input type="radio" id="Bil" name="Question1" value="Bil">
+        <label for="Bil">Bil</label> <br>
+
+    <br>
+
+
+</form>
+
 
 
 <script src="main.js"></script>
