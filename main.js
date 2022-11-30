@@ -360,7 +360,7 @@ const data =
     },
     {
         "Kommuner": "Norddjurs",
-        "Parcel\/rækkehuse": 7714,
+        "Parcel/rækkehuse": 7714,
         "Ejerlejlighed": 0
     },
     {
