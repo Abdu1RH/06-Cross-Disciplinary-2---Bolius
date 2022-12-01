@@ -76,6 +76,15 @@ p{
     font-weight: normal;
 }
 
+#homeLogo {
+    position: absolute;
+    right: 12px;
+    top: -3px;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+
 #sloganLogo{
 float: right;
 }
