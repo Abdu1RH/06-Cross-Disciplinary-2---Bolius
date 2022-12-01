@@ -44,6 +44,7 @@ body {
     position: relative;
     z-index: 100;
     padding: 22px;
+
 }
 
 #logoFooter{
@@ -66,3 +67,11 @@ body {
 }
  */
 
+
+p{
+    font-weight: bold;
+}
+
+#textFooter{
+    font-weight: normal;
+}

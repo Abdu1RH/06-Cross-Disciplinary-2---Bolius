@@ -19,6 +19,7 @@
 
     <header id="header">
         <img id="logo" src="https://bolius.zendesk.com/hc/article_attachments/360008633719/designguide_LOGO.svg">
+        <img id="homeLogo" src="https://bolius.zendesk.com/system/photos/360107528780/kommentar-avatar.jpg">
     </header>
 
     <h1>Hvilken bolig passer til mig?</h1>
@@ -32,17 +33,14 @@
     <input id="kommune" placeholder="Fx Hvidovre" type="text">
 
     <br>
-
+    <br>
 
     <p>2) Hvad er din månedlige indkomst?</p>
 
     <input id="indkomst" placeholder="Fx 21750" type="number">
 
-
-
     <br>
-
-
+    <br>
 
     <p>3) Har du en af følgende? </p>
 
@@ -60,6 +58,22 @@
     <label for="Bil">Bil</label>
 
     <br>
+    <br>
+
+    <p>4) Hvilken form for transportmiddel anvender du?</p>
+
+    <input type="radio" id="Bil1" name="Question1" value="Bil">
+    <label for="Bil1">Bil</label>
+
+    <input type="radio" id="Offentlig transport" name="Question1" value="Offentlig transport">
+    <label for="Offentlig transport">Offentlig transport</label>
+
+    <input type="radio" id="Cykel" name="Question1" value="Cykel">
+    <label for="Cykel">Cykel</label>
+
+    <input type="radio" id="Ingen af følgende" name="Question1" value="Ingen af følgende">
+    <label for="Ingen af følgende">Ingen af følgende</label>
+
 
 </form>
 
@@ -70,7 +84,7 @@
 <div id="divFooter">
     <footer>
     <img id="logoFooter" src="https://bolius.zendesk.com/hc/article_attachments/360008633719/designguide_LOGO.svg">
-        <p>Videncentret Bolius A/S <br>
+        <p id="textFooter">Videncentret Bolius A/S <br>
             Jarmers Plads 2, <br>
             1551 København V <br>
             CVR-nr. 26444276 </p>
