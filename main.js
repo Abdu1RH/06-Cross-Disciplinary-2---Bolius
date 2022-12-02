@@ -1,6 +1,5 @@
 //UDB020: Boligpriser efter område, ejendomskategori og priser
 // Enhed : Kr. pr. m2
-
 const data =
 [
     {
@@ -592,5 +591,5 @@ const data =
         "Ejerlejlighed": 27615
     }
 ]
-
 console.log(data)
+
