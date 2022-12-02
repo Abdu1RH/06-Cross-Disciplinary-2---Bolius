@@ -98,14 +98,14 @@ p{
     height: 1.875rem;
 }
 
-#sloganLogo{
+#sloganLogo {
 float: right;
 }
 
 #button {
     background: #EE5C47;
     color:white;
-    font-family: sans-serif;
+    font-family:'Kumbh Sans regular', sans-serif;
     border: none;
     display: block;
     width: 25%;
@@ -115,6 +115,3 @@ float: right;
     float: bottom;
     margin: auto;
 }
-
-
-
