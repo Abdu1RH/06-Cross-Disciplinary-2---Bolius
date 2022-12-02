@@ -17,7 +17,7 @@ body {
 #logo {
     border-radius: 4px;
     padding: 5px;
-    width: 80px;
+    width: 100px;
     float: top;
     left: 230px;
     position: relative;
@@ -51,7 +51,7 @@ body {
 
 #logoFooter{
     border-radius: 4px;
-    width: 80px;
+    width: 90px;
     float: top;
     position: relative;
 }
@@ -94,8 +94,8 @@ p{
     right: 265px;
     top: 15px;
     font-size: 24px;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
 }
 
 #sloganLogo{
