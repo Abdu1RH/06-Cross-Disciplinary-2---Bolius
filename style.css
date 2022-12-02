@@ -80,9 +80,11 @@ p{
     font-weight: bold;
 }
 
-#textFooter{
+#textFooter {
     font-weight: normal;
 }
+
+
 
 #homeLogo {
     position: absolute;
@@ -96,3 +98,21 @@ p{
 #sloganLogo{
 float: right;
 }
+
+#button {
+    background: #EE5C47;
+    color:white;
+    font-family: sans-serif;
+    border: none;
+    display: block;
+    width: 25%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 1.1rem;
+    float: bottom;
+    margin: auto;
+
+}
+
+
+
