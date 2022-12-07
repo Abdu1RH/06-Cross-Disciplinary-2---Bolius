@@ -617,11 +617,12 @@ function check () {
 const button = document.querySelector('#button');
 console.log(button)
 button.addEventListener("click", function (){
+    console.log("knappen klikket")
 })
 document.getElementById("postNr").addEventListener("input", () => console.log(document.getElementById("postNr").value));
 
 
-console.log("Button Clicked")
+console.log("buttonclick")
 
 
 function checkIfAvailable(Post)
