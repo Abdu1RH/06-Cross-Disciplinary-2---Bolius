@@ -607,3 +607,25 @@ button.addEventListener("click", function (){
 })
 
 console.log("buttonclick")
+
+
+function checkIfAvailable(Post)
+{
+    let postNummer = ["2100","1800","2791","2770","2620","2750","2660","2820","2860","2600"]
+    return( postNummer.indexOf(Post) >= "" )
+}
+
+function validatePost()
+{
+    let post = document.getElementById("postNr").value;
+    let respons =""
+    if(checkIfAvailable(post))
+    {
+        respons="Tilgængelige bolig findes i området";
+    }
+    else
+    {
+        respons="Desværre, ingen tilgængelige bolig i området";
+    }
+    document.getElementById("respons").innerHTML = respons;
+}
