@@ -1,5 +1,6 @@
 //UDB020: Boligpriser efter område, ejendomskategori og priser
 // Enhed : Kr. pr. m2
+
 const data =
 [
     {
@@ -593,3 +594,16 @@ const data =
 ]
 console.log(data)
 
+
+
+
+
+
+
+const button = document.querySelector('#button');
+console.log(button)
+button.addEventListener("click", function (){
+    console.log("knappen klikket")
+})
+
+console.log("buttonclick")
