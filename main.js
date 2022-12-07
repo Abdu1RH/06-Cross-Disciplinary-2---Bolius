@@ -594,6 +594,20 @@ const data =
 ]
 console.log(data)
 
+/*
+function check () {
+
+    const Question1 = document.questionbox.Question1.value;
+
+    const Question2 = document.questionbox.Question2.value;
+
+    if (Question1 === 2000-2999) {
+        "Postnummer" > 2000 <
+    }
+
+}
+ */
+
 
 
 
@@ -603,10 +617,11 @@ console.log(data)
 const button = document.querySelector('#button');
 console.log(button)
 button.addEventListener("click", function (){
-    console.log("knappen klikket")
 })
+document.getElementById("postNr").addEventListener("input", () => console.log(document.getElementById("postNr").value));
 
-console.log("buttonclick")
+
+console.log("Button Clicked")
 
 
 function checkIfAvailable(Post)
