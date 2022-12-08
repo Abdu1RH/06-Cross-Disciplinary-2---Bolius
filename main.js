@@ -618,9 +618,14 @@ const button = document.querySelector('#button');
 console.log(button)
 button.addEventListener("click", function (){
     console.log("knappen klikket")
-})
-document.getElementById("postNr").addEventListener("input", () => console.log(document.getElementById("postNr").value));
 
+    const postNr = document.querySelector("#postNr").value
+     console.log(postNr)
+
+
+
+
+})
 
 console.log("buttonclick")
 
@@ -644,4 +649,10 @@ function validatePost()
         respons="Desværre, ingen tilgængelige bolig i området";
     }
     document.getElementById("respons").innerHTML = respons;
+
 }
+
+
+
+
+
