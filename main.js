@@ -1,8 +1,17 @@
-//UDB020: Boligpriser efter område, ejendomskategori og priser
-// Enhed : Kr. pr. m2
+/*
+function check () {
 
-const data =
-[
+    const Question1 = document.questionbox.Question1.value;
+
+    const Question2 = document.questionbox.Question2.value;
+
+    if (Question1 === 2000-2999) {
+        "Postnummer" > 2000 <
+    }
+
+}
+ */
+const data = [
     {
         "Kommuner": "København",
         "Postnummer": 2100,
@@ -592,24 +601,8 @@ const data =
         "Ejerlejlighed": 27615
     }
 ]
+
 console.log(data)
-
-/*
-function check () {
-
-    const Question1 = document.questionbox.Question1.value;
-
-    const Question2 = document.questionbox.Question2.value;
-
-    if (Question1 === 2000-2999) {
-        "Postnummer" > 2000 <
-    }
-
-}
- */
-
-
-
 
 
 
@@ -618,38 +611,38 @@ const button = document.querySelector('#button');
 console.log(button)
 button.addEventListener("click", function (){
     console.log("knappen klikket")
-
+    console.log(getBoligdata())
     const postNr = document.querySelector("#postNr").value
      console.log(postNr)
 
-   const indkomst =document.querySelector("#indkomst").value
-      console.log(indkomst)
 })
 
 console.log("buttonclick")
 
 
-function checkIfAvailable(Post)
-{
-    let postNummer = ["2100","1800","2791","2770","2620","2750","2660","2820","2860","2600","2730","2650","2630","2635","2800","2610","2625","3450","3650","3480","3600","3310","3670","3200","3000","3400","2970","2840","3700","2670","4600","4320","4000","2680","4640","4862","4400","4900","4700","4500","4100","4200","4180","4673","4760","5610","5600","5300","5900","5500","5450","5800","5000","5881","5970","7190","6700","6720","7000","6070","6000","6400","6240","6682","6510","7100","6200","8881","8722","8700","8500","8300","8920","8305","8600","8660","8400","8210","7400","7500","8430","7620","6950","7800","7600","8800","9700","9900","9800","9440","4900","9500","7900","9520","7700","9640","9000"]
-    return( postNummer.indexOf(Post) >= "" )
+//Postnummer
+function checkIfAvailable(Post) {
+    let postNummer = data.map((hus)=>{
+        return hus.Postnummer;
+    })
+    console.log(postNummer.indexOf(parseInt(Post)))
+    return( postNummer.indexOf(parseInt(Post)) != -1 )
 }
 
-function validatePost()
-{
+function validatePost() {
     let post = document.getElementById("postNr").value;
-    let respons =""
+    let response =""
     if(checkIfAvailable(post))
     {
-        respons="Tilgængelige bolig findes i området";
+        response="Tilgængelige bolig findes i området";
     }
     else
     {
-        respons="Desværre, ingen tilgængelige bolig i området";
+        response="Desværre, ingen tilgængelige bolig i området";
     }
-    document.getElementById("respons").innerHTML = respons;
-
+    document.getElementById("response").innerHTML = response;
 }
+
 
 
 
