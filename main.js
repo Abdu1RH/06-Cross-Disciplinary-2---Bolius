@@ -622,9 +622,8 @@ button.addEventListener("click", function (){
     const postNr = document.querySelector("#postNr").value
      console.log(postNr)
 
-
-
-
+   const indkomst =document.querySelector("#indkomst").value
+      console.log(indkomst)
 })
 
 console.log("buttonclick")
@@ -651,7 +650,6 @@ function validatePost()
     document.getElementById("respons").innerHTML = respons;
 
 }
-
 
 
 
