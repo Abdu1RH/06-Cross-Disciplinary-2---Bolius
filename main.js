@@ -4,7 +4,7 @@
 let data =
 [
     {
-        Kommuner: København,
+        Kommuner: "København",
         Postnummer: 2100,
         ParcelEllerRækkehuse: 64034,
         Ejerlejlighed: 55018
