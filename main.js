@@ -606,14 +606,7 @@ function check () {
     }
 
 }
-bbbu
  */
-
-
-
-
-
-
 
 const button = document.querySelector('#button');
 console.log(button)
@@ -627,6 +620,7 @@ button.addEventListener("click", function (){
       console.log(indkomst)
 })
 
+
 //Postnummer
 function checkIfAvailable(Post) {
     let postNummer = data.map((hus)=>{
@@ -635,6 +629,7 @@ function checkIfAvailable(Post) {
     console.log(postNummer.indexOf(parseInt(Post)))
     return( postNummer.indexOf(parseInt(Post)) != -1 )
 }
+
 
 function validatePost() {
     let post = document.getElementById("postNr").value;
@@ -647,7 +642,6 @@ function validatePost() {
     document.getElementById("response").innerHTML = response;
 }
 
-    let anbefaletbolig = data.filter(data => data.Postnummer === "2670");
-    console.log(anbefaletbolig);
+
 
 
