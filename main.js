@@ -649,7 +649,7 @@ function validatePost()
     document.getElementById("respons").innerHTML = respons;
 
 }
-
+//h
 
 let anbefaletbolig = data.filter(data => data.Postnummer === "2670");
 console.log(anbefaletbolig);
