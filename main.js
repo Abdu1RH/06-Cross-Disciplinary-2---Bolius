@@ -635,9 +635,9 @@ function validatePost() {
     let post = document.getElementById("postNr").value;
     let response = ""
     if (checkIfAvailable(post)) {
-        response = "Tilgængelige bolig findes i området";
+        response = "Tilgængelige boliger findes i området";
     } else {
-        response = "Desværre, ingen tilgængelige bolig i området";
+        response = "Desværre, ingen tilgængelige boliger i området";
     }
     document.getElementById("response").innerHTML = response;
 }
