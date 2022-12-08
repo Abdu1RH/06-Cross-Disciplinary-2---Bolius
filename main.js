@@ -613,11 +613,35 @@ console.log(button)
 button.addEventListener("click", function (){
     console.log("Indsend klikket")
 
-    const postNr = document.querySelector("#postNr").value
-     console.log(postNr)
+    const userinput = {}
 
-   const indkomst =document.querySelector("#indkomst").value
-      console.log(indkomst)
+    userinput.postNr = document.querySelector("#postNr").value
+
+   userinput.indkomst =document.querySelector("#indkomst").value
+
+
+
+    userinput.kæreste =document.querySelector("#kæreste-partner").checked
+
+    userinput.barn =document.querySelector("#Barn-børn").checked
+
+    userinput.kæledyr =document.querySelector("#Kæledyr").checked
+
+    userinput.bil =document.querySelector("#Bil").checked
+
+    userinput.bil1 = document.querySelector("#Bil1").checked
+
+    userinput.offentligTransport = document.querySelector("#OffentligTransport").checked
+
+    userinput.cykel = document.querySelector("#Cykel").checked
+
+    userinput.ingen = document.querySelector("#Ingenaffølgende").checked ?? false
+
+    console.log(userinput)
+
+    const filteredResults = results(data, userinput)
+
+    console.log(filteredResults)
 })
 
 
@@ -643,5 +667,32 @@ function validatePost() {
 }
 
 
+/*
+answer = {
+    income: 25000,
+}
+ */
+
+/*
+function results(data, answer) {
+    const maxRent = 0.45 * answer.income
+
+    return data
+        .filter((datum) => datum.ParcelEllerRækkehuse <= maxRent)
+
+
+}
+
+ */
+function results(data, answer) {
+    const EjerlejlighedPris = 20000
+    const ParcelEllerRækkehusePris = 40000
+
+    return data
+        .filter((datum) => datum.Ejerlejlighed <= EjerlejlighedPris)
+        .filter((datum) => datum.ParcelEllerRækkehuse <= ParcelEllerRækkehusePris)
+
+
+}
 
 
