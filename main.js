@@ -7,7 +7,8 @@ let data =
         Kommuner: "København",
         Postnummer: 2100,
         ParcelEllerRækkehuse: 64034,
-        Ejerlejlighed: 55018
+        Ejerlejlighed: 55018,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Frederiksberg",
@@ -19,7 +20,8 @@ let data =
         Kommuner: "Dragør",
         Postnummer: 2791,
         ParcelEllerRækkehuse: 52678,
-        Ejerlejlighed: 38333
+        Ejerlejlighed: 38333,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Tårnby",
@@ -55,19 +57,22 @@ let data =
         Kommuner: "Gladsaxe",
         Postnummer: 2860,
         ParcelEllerRækkehuse: 54860,
-        Ejerlejlighed: 33090
+        Ejerlejlighed: 33090,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Glostrup",
         Postnummer: 2600,
         ParcelEllerRækkehuse: 33626,
-        Ejerlejlighed: 31334
+        Ejerlejlighed: 31334,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Herlev",
         Postnummer: 2730,
         ParcelEllerRækkehuse: 36661,
-        Ejerlejlighed: 31721
+        Ejerlejlighed: 31721,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Hvidovre",
@@ -79,19 +84,22 @@ let data =
         Kommuner: "Høje-Taastrup",
         Postnummer: 2630,
         ParcelEllerRækkehuse: 28664,
-        Ejerlejlighed: 29035
+        Ejerlejlighed: 29035,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Ishøj",
         Postnummer: 2635,
         ParcelEllerRækkehuse: 24516,
-        Ejerlejlighed: 28003
+        Ejerlejlighed: 28003,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Lyngby-Taarbæk",
         Postnummer: 2800,
         ParcelEllerRækkehuse: 57800,
-        Ejerlejlighed: 40371
+        Ejerlejlighed: 40371,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Rødovre",
@@ -104,6 +112,7 @@ let data =
         Postnummer: 2625,
         ParcelEllerRækkehuse: 32167,
         Ejerlejlighed: 27329
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Allerød",
@@ -127,7 +136,8 @@ let data =
         Kommuner: "Frederikssund",
         Postnummer: 3600,
         ParcelEllerRækkehuse: 21333,
-        Ejerlejlighed: 23913
+        Ejerlejlighed: 23913,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Halsnæs",
@@ -145,25 +155,29 @@ let data =
         Kommuner: "Gribskov",
         Postnummer: 3200,
         ParcelEllerRækkehuse: 26415,
-        Ejerlejlighed: 16579
+        Ejerlejlighed: 16579,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Helsingør",
         Postnummer: 3000,
         ParcelEllerRækkehuse: 33283,
-        Ejerlejlighed: 28942
+        Ejerlejlighed: 28942,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Hillerød",
         Postnummer: 3400,
         ParcelEllerRækkehuse: 32765,
-        Ejerlejlighed: 30141
+        Ejerlejlighed: 30141,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Hørsholm",
         Postnummer: 2970,
         ParcelEllerRækkehuse: 60545,
-        Ejerlejlighed: 39319
+        Ejerlejlighed: 39319,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Rudersdal",
@@ -187,7 +201,8 @@ let data =
         Kommuner: "Køge",
         Postnummer: 4600,
         ParcelEllerRækkehuse: 25264,
-        Ejerlejlighed: 35928
+        Ejerlejlighed: 35928,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Lejre",
@@ -223,7 +238,8 @@ let data =
         Kommuner: "Holbæk",
         Postnummer: 4300,
         ParcelEllerRækkehuse: 18046,
-        Ejerlejlighed: 17418
+        Ejerlejlighed: 17418,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Kalundborg",
@@ -241,25 +257,29 @@ let data =
         Kommuner: "Næstved",
         Postnummer: 4700,
         ParcelEllerRækkehuse: 13349,
-        Ejerlejlighed: 14682
+        Ejerlejlighed: 14682,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Odsherred",
         Postnummer: 4500,
         ParcelEllerRækkehuse: 11658,
-        Ejerlejlighed: 12737
+        Ejerlejlighed: 12737,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Ringsted",
         Postnummer: 4100,
         ParcelEllerRækkehuse: 17139,
-        Ejerlejlighed: 0
+        Ejerlejlighed: 0,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Slagelse",
         Postnummer: 4200,
         ParcelEllerRækkehuse: 13150,
-        Ejerlejlighed: 11920
+        Ejerlejlighed: 11920,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Sorø",
@@ -271,13 +291,15 @@ let data =
         Kommuner: "Stevns",
         Postnummer: 4673,
         ParcelEllerRækkehuse: 19136,
-        Ejerlejlighed: 20641
+        Ejerlejlighed: 20641,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Vordingborg",
         Postnummer: 4760,
         ParcelEllerRækkehuse: 12344,
-        Ejerlejlighed: 13125
+        Ejerlejlighed: 13125,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Assens",
@@ -289,13 +311,15 @@ let data =
         Kommuner: "Faaborg-Midtfyn",
         Postnummer: 5600,
         ParcelEllerRækkehuse: 10657,
-        Ejerlejlighed: 14792
+        Ejerlejlighed: 14792,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Kerteminde",
         Postnummer: 5300,
         ParcelEllerRækkehuse: 16342,
-        Ejerlejlighed: 0
+        Ejerlejlighed: 0,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Langeland",
@@ -331,19 +355,22 @@ let data =
         Kommuner: "Svendborg",
         Postnummer: 5881,
         ParcelEllerRækkehuse: 15923,
-        Ejerlejlighed: 44985
+        Ejerlejlighed: 44985,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Ærø",
         Postnummer: 5970,
         ParcelEllerRækkehuse: 13762,
-        Ejerlejlighed: 0
+        Ejerlejlighed: 0,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Billund",
         Postnummer: 7190,
         ParcelEllerRækkehuse: 12398,
-        Ejerlejlighed: 0
+        Ejerlejlighed: 0,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Esbjerg",
@@ -361,7 +388,8 @@ let data =
         Kommuner: "Fredericia",
         Postnummer: 7000,
         ParcelEllerRækkehuse: 17672,
-        Ejerlejlighed: 15629
+        Ejerlejlighed: 15629,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Haderslev",
@@ -373,13 +401,15 @@ let data =
         Kommuner: "Kolding",
         Postnummer: 6000,
         ParcelEllerRækkehuse: 17208,
-        Ejerlejlighed: 15569
+        Ejerlejlighed: 15569,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Sønderborg",
         Postnummer: 6400,
         ParcelEllerRækkehuse: 10213,
-        Ejerlejlighed: 15765
+        Ejerlejlighed: 15765,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Tønder",
@@ -391,7 +421,8 @@ let data =
         Kommuner: "Varde",
         Postnummer: 6682,
         ParcelEllerRækkehuse: 8339,
-        Ejerlejlighed: 15524
+        Ejerlejlighed: 15524,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Vejen",
@@ -403,7 +434,8 @@ let data =
         Kommuner: "Vejle",
         Postnummer: 7100,
         ParcelEllerRækkehuse: 18100,
-        Ejerlejlighed: 18898
+        Ejerlejlighed: 18898,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Aabenraa",
@@ -421,7 +453,8 @@ let data =
         Kommuner: "Hedensted",
         Postnummer: 8722,
         ParcelEllerRækkehuse: 12642,
-        Ejerlejlighed: 0
+        Ejerlejlighed: 0,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Horsens",
@@ -439,19 +472,22 @@ let data =
         Kommuner: "Odder",
         Postnummer: 8300,
         ParcelEllerRækkehuse: 15654,
-        Ejerlejlighed: 0
+        Ejerlejlighed: 0,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Randers",
         Postnummer: 8920,
         ParcelEllerRækkehuse: 12387,
-        Ejerlejlighed: 14776
+        Ejerlejlighed: 14776,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Samsø",
         Postnummer: 8305,
         ParcelEllerRækkehuse: 15255,
-        Ejerlejlighed: 0
+        Ejerlejlighed: 0,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Silkeborg",
@@ -481,31 +517,36 @@ let data =
         Kommuner: "Herning",
         Postnummer: 7400,
         ParcelEllerRækkehuse: 13901,
-        Ejerlejlighed: 25651
+        Ejerlejlighed: 25651,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Holstebro",
         Postnummer: 7500,
         ParcelEllerRækkehuse: 15108,
-        Ejerlejlighed: 19651
+        Ejerlejlighed: 19651,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Ikast-Brande",
         Postnummer: 8430,
         ParcelEllerRækkehuse: 11525,
-        Ejerlejlighed: 0
+        Ejerlejlighed: 0,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Lemvig",
         Postnummer: 7620,
         ParcelEllerRækkehuse: 7985,
-        Ejerlejlighed: 0
+        Ejerlejlighed: 0,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Ringkøbing-Skjern",
         Postnummer: 6950,
         ParcelEllerRækkehuse: 9454,
-        Ejerlejlighed: 19728
+        Ejerlejlighed: 19728,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Skive",
@@ -523,7 +564,8 @@ let data =
         Kommuner: "Viborg",
         Postnummer: 8800,
         ParcelEllerRækkehuse: 13468,
-        Ejerlejlighed: 8887
+        Ejerlejlighed: 8887,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Brønderslev",
@@ -535,7 +577,8 @@ let data =
         Kommuner: "Frederikshavn",
         Postnummer: 9900,
         ParcelEllerRækkehuse: 11210,
-        Ejerlejlighed: 21397
+        Ejerlejlighed: 21397,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Hjørring",
@@ -547,13 +590,15 @@ let data =
         Kommuner: "Jammerbugt",
         Postnummer: 9440,
         ParcelEllerRækkehuse: 9431,
-        Ejerlejlighed: 23010
+        Ejerlejlighed: 23010,
+       KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Læsø",
         Postnummer: 4900,
         ParcelEllerRækkehuse: 6780,
-        Ejerlejlighed: 0
+        Ejerlejlighed: 0,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Mariagerfjord",
@@ -583,7 +628,8 @@ let data =
         Kommuner: "Vesthimmerlands",
         Postnummer: 9640,
         ParcelEllerRækkehuse: 8115,
-        Ejerlejlighed: 0
+        Ejerlejlighed: 0,
+        KæresteEllerPartner: "Ja",
     },
     {
         Kommuner: "Aalborg",
@@ -651,7 +697,7 @@ function checkIfAvailable(Post) {
         return hus.Postnummer;
     })
     console.log(postNummer.indexOf(parseInt(Post)))
-    return( postNummer.indexOf(parseInt(Post)) != -1 )
+    return(postNummer.indexOf(parseInt(Post)) != -1)
 }
 
 
