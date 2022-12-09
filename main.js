@@ -9,8 +9,11 @@ let data =
         ParcelEllerRækkehuse: 64034,
         Ejerlejlighed: 55018,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
+        Kæledyr: "Ja",
+        Bil: "Ja",
         Cykel: "Ja",
-        OffentligTransport: "Ja"
+        OffentligTransport: "Ja",
 
     },
     {
@@ -18,7 +21,8 @@ let data =
         Postnummer: 1800,
         ParcelEllerRækkehuse: 93739,
         Ejerlejlighed: 63459,
-        OffentligTransport: "Ja"
+        BarnEllerBørn: "Ja",
+        OffentligTransport: "Ja",
     },
     {
         Kommuner: "Dragør",
@@ -33,6 +37,7 @@ let data =
         Postnummer: 2770,
         ParcelEllerRækkehuse: 39620,
         Ejerlejlighed: 38057,
+        BarnEllerBørn: "Ja",
         OffentligTransport: "Ja"
     },
     {
@@ -40,6 +45,7 @@ let data =
         Postnummer: 2620,
         ParcelEllerRækkehuse: 27484,
         Ejerlejlighed: 21980,
+        BarnEllerBørn: "Ja",
         Bil: "Ja"
     },
     {
@@ -47,6 +53,7 @@ let data =
         Postnummer: 2750,
         ParcelEllerRækkehuse: 36322,
         Ejerlejlighed: 29655,
+        BarnEllerBørn: "Ja",
         Bil: "Ja"
     },
     {
@@ -54,15 +61,19 @@ let data =
         Postnummer: 2660,
         ParcelEllerRækkehuse: 33517,
         Ejerlejlighed: 25873,
-        OffentligTransport: "Ja"
+        BarnEllerBørn: "Ja",
+        OffentligTransport: "Ja",
+        Kæledyr: "Ja",
+        Bil: "Ja",
     },
     {
         Kommuner: "Gentofte",
         Postnummer: 2820,
         ParcelEllerRækkehuse: 87976,
         Ejerlejlighed: 59006,
-        Bil: "Ja"
-
+        BarnEllerBørn: "Ja",
+        Bil: "Ja",
+        Kæledyr: "Ja",
     },
     {
         Kommuner: "Gladsaxe",
@@ -70,6 +81,7 @@ let data =
         ParcelEllerRækkehuse: 54860,
         Ejerlejlighed: 33090,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         OffentligTransport: "Ja"
     },
     {
@@ -78,7 +90,8 @@ let data =
         ParcelEllerRækkehuse: 33626,
         Ejerlejlighed: 31334,
         KæresteEllerPartner: "Ja",
-        Bil: "Ja"
+        Bil: "Ja",
+        Kæledyr: "Ja",
     },
     {
         Kommuner: "Herlev",
@@ -86,6 +99,7 @@ let data =
         ParcelEllerRækkehuse: 36661,
         Ejerlejlighed: 31721,
         KæresteEllerPartner: "Ja",
+        Kæledyr: "Ja",
     },
     {
         Kommuner: "Hvidovre",
@@ -100,6 +114,7 @@ let data =
         ParcelEllerRækkehuse: 28664,
         Ejerlejlighed: 29035,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         OffentligTransport: "Ja"
 
@@ -120,6 +135,7 @@ let data =
         ParcelEllerRækkehuse: 57800,
         Ejerlejlighed: 40371,
         KæresteEllerPartner: "Ja",
+        Kæledyr: "Ja",
         Bil: "Ja",
         OffentligTransport: "Ja"
 
@@ -129,6 +145,7 @@ let data =
         Postnummer: 2610,
         ParcelEllerRækkehuse: 36360,
         Ejerlejlighed: 35364,
+        Kæledyr: "Ja",
         Cykel: "Ja",
         Bil: "Ja",
         OffentligTransport: "Ja"
@@ -140,6 +157,8 @@ let data =
         ParcelEllerRækkehuse: 32167,
         Ejerlejlighed: 27329,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
+        Kæledyr: "Ja",
         Bil: "Ja"
     },
     {
@@ -147,6 +166,7 @@ let data =
         Postnummer: 3450,
         ParcelEllerRækkehuse: 34354,
         Ejerlejlighed: 27109,
+        BarnEllerBørn: "Ja",
         Bil: "Ja"
 
     },
@@ -155,6 +175,7 @@ let data =
         Postnummer: 3650,
         ParcelEllerRækkehuse: 26872,
         Ejerlejlighed: 32829,
+        BarnEllerBørn: "Ja",
         Bil: "Ja"
 
     },
@@ -163,6 +184,8 @@ let data =
         Postnummer: 3480,
         ParcelEllerRækkehuse: 32076,
         Ejerlejlighed: 25350,
+        BarnEllerBørn: "Ja",
+        Kæledyr: "Ja",
         Bil: "Ja"
 
     },
@@ -172,6 +195,8 @@ let data =
         ParcelEllerRækkehuse: 21333,
         Ejerlejlighed: 23913,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
+        Kæledyr: "Ja",
         Cykel: "Ja"
     },
     {
@@ -186,6 +211,7 @@ let data =
         Postnummer: 3670,
         ParcelEllerRækkehuse: 40761,
         Ejerlejlighed: 32010,
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
 
     },
@@ -195,6 +221,7 @@ let data =
         ParcelEllerRækkehuse: 26415,
         Ejerlejlighed: 16579,
         KæresteEllerPartner: "Ja",
+        Kæledyr: "Ja",
         OffentligTransport: "Ja"
     },
     {
@@ -203,6 +230,8 @@ let data =
         ParcelEllerRækkehuse: 33283,
         Ejerlejlighed: 28942,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
+        Kæledyr: "Ja",
         Bil: "Ja"
 
     },
@@ -238,6 +267,7 @@ let data =
         ParcelEllerRækkehuse: 11823,
         Ejerlejlighed: 20884,
         Bil: "Ja",
+        Kæledyr: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
     },
@@ -266,6 +296,7 @@ let data =
         ParcelEllerRækkehuse: 24289,
         Ejerlejlighed: 32789,
         Bil: "Ja",
+        Kæledyr: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
     },
@@ -282,6 +313,8 @@ let data =
         Postnummer: 2680,
         ParcelEllerRækkehuse: 32298,
         Ejerlejlighed: 28542,
+        Kæledyr: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja"
 
     },
@@ -290,6 +323,7 @@ let data =
         Postnummer: 4640,
         ParcelEllerRækkehuse: 14945,
         Ejerlejlighed: 0,
+        BarnEllerBørn: "Ja",
         OffentligTransport: "Ja"
     },
     {
@@ -298,7 +332,8 @@ let data =
         ParcelEllerRækkehuse: 9647,
         Ejerlejlighed: 8838,
         Bil: "Ja",
-        OffentligTransport: "Ja"
+        OffentligTransport: "Ja",
+        Kæledyr: "Ja",
     },
     {
         Kommuner: "Holbæk",
@@ -315,6 +350,7 @@ let data =
         Postnummer: 4400,
         ParcelEllerRækkehuse: 10090,
         Ejerlejlighed: 0,
+        BarnEllerBørn: "Ja",
         OffentligTransport: "Ja"
     },
     {
@@ -322,6 +358,7 @@ let data =
         Postnummer: 4900,
         ParcelEllerRækkehuse: 6723,
         Ejerlejlighed: 0,
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         OffentligTransport: "Ja"
     },
@@ -330,6 +367,7 @@ let data =
         Postnummer: 4700,
         ParcelEllerRækkehuse: 13349,
         Ejerlejlighed: 14682,
+        Kæledyr: "Ja",
         KæresteEllerPartner: "Ja",
         Bil: "Ja",
         OffentligTransport: "Ja"
@@ -341,6 +379,7 @@ let data =
         Ejerlejlighed: 12737,
         KæresteEllerPartner: "Ja",
         Bil: "Ja",
+        Kæledyr: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
     },
@@ -349,6 +388,7 @@ let data =
         Postnummer: 4100,
         ParcelEllerRækkehuse: 17139,
         Ejerlejlighed: 0,
+        Kæledyr: "Ja",
         KæresteEllerPartner: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -359,6 +399,7 @@ let data =
         ParcelEllerRækkehuse: 13150,
         Ejerlejlighed: 11920,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -388,6 +429,7 @@ let data =
         ParcelEllerRækkehuse: 12344,
         Ejerlejlighed: 13125,
         KæresteEllerPartner: "Ja",
+        Kæledyr: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -397,6 +439,8 @@ let data =
         Postnummer: 5610,
         ParcelEllerRækkehuse: 9811,
         Ejerlejlighed: 0,
+        Kæledyr: "Ja",
+        BarnEllerBørn: "Ja",
         Cykel: "Ja",
 
     },
@@ -406,6 +450,8 @@ let data =
         ParcelEllerRækkehuse: 10657,
         Ejerlejlighed: 14792,
         KæresteEllerPartner: "Ja",
+        Kæledyr: "Ja",
+        BarnEllerBørn: "Ja",
         OffentligTransport: "Ja"
     },
     {
@@ -414,6 +460,7 @@ let data =
         ParcelEllerRækkehuse: 16342,
         Ejerlejlighed: 0,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
 
     },
@@ -432,6 +479,7 @@ let data =
         ParcelEllerRækkehuse: 15420,
         Ejerlejlighed: 44091,
         Bil: "Ja",
+        Kæledyr: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
     },
@@ -440,8 +488,10 @@ let data =
         Postnummer: 5450,
         ParcelEllerRækkehuse: 9637,
         Ejerlejlighed: 0,
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
+        Kæledyr: "Ja",
         OffentligTransport: "Ja"
     },
     {
@@ -451,6 +501,7 @@ let data =
         Ejerlejlighed: 26835,
         Bil: "Ja",
         Cykel: "Ja",
+        Kæledyr: "Ja",
         OffentligTransport: "Ja"
     },
     {
@@ -458,6 +509,7 @@ let data =
         Postnummer: 5000,
         ParcelEllerRækkehuse: 20452,
         Ejerlejlighed: 24332,
+        BarnEllerBørn: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
     },
@@ -469,6 +521,7 @@ let data =
         KæresteEllerPartner: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
+        Kæledyr: "Ja",
         OffentligTransport: "Ja"
     },
     {
@@ -477,7 +530,9 @@ let data =
         ParcelEllerRækkehuse: 13762,
         Ejerlejlighed: 0,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
+        Kæledyr: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
     },
@@ -487,6 +542,8 @@ let data =
         ParcelEllerRækkehuse: 12398,
         Ejerlejlighed: 0,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
+        Kæledyr: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -496,6 +553,7 @@ let data =
         Postnummer: 6700,
         ParcelEllerRækkehuse: 15564,
         Ejerlejlighed: 19146,
+        Kæledyr: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -505,7 +563,9 @@ let data =
         Postnummer: 6720,
         ParcelEllerRækkehuse: 16340,
         Ejerlejlighed: 0,
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
+        Kæledyr: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
     },
@@ -515,6 +575,7 @@ let data =
         ParcelEllerRækkehuse: 17672,
         Ejerlejlighed: 15629,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -526,6 +587,7 @@ let data =
         Ejerlejlighed: 12061,
         Bil: "Ja",
         Cykel: "Ja",
+        Kæledyr: "Ja",
         OffentligTransport: "Ja"
     },
     {
@@ -534,6 +596,7 @@ let data =
         ParcelEllerRækkehuse: 17208,
         Ejerlejlighed: 15569,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -552,6 +615,7 @@ let data =
         Postnummer: 6240,
         ParcelEllerRækkehuse: 6812,
         Ejerlejlighed: 11422,
+        Kæledyr: "Ja",
         Bil: "Ja",
     },
     {
@@ -559,7 +623,9 @@ let data =
         Postnummer: 6682,
         ParcelEllerRækkehuse: 8339,
         Ejerlejlighed: 15524,
+        Kæledyr: "Ja",
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja"
 
     },
@@ -567,6 +633,7 @@ let data =
         Kommuner: "Vejen",
         Postnummer: 6510,
         ParcelEllerRækkehuse: 9595,
+        Kæledyr: "Ja",
         Ejerlejlighed: 0,
         Bil: "Ja",
         Cykel: "Ja",
@@ -578,6 +645,7 @@ let data =
         ParcelEllerRækkehuse: 18100,
         Ejerlejlighed: 18898,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -587,6 +655,8 @@ let data =
         Postnummer: 6200,
         ParcelEllerRækkehuse: 12512,
         Ejerlejlighed: 26146,
+        Kæledyr: "Ja",
+        BarnEllerBørn: "Ja",
         OffentligTransport: "Ja"
     },
     {
@@ -594,8 +664,9 @@ let data =
         Postnummer: 8881,
         ParcelEllerRækkehuse: 15786,
         Ejerlejlighed: 0,
-        Bil: "Ja",
+        BarnEllerBørn: "Ja",
         Cykel: "Ja",
+        Bil: "Ja",
         OffentligTransport: "Ja"
     },
     {
@@ -604,6 +675,7 @@ let data =
         ParcelEllerRækkehuse: 12642,
         Ejerlejlighed: 0,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -613,6 +685,7 @@ let data =
         Postnummer: 8700,
         ParcelEllerRækkehuse: 16003,
         Ejerlejlighed: 19977,
+        Kæledyr: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -623,6 +696,7 @@ let data =
         ParcelEllerRækkehuse: 7714,
         Ejerlejlighed: 0,
         Bil: "Ja",
+        Kæledyr: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
     },
@@ -632,6 +706,7 @@ let data =
         ParcelEllerRækkehuse: 15654,
         Ejerlejlighed: 0,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         OffentligTransport: "Ja"
     },
@@ -640,7 +715,9 @@ let data =
         Postnummer: 8920,
         ParcelEllerRækkehuse: 12387,
         Ejerlejlighed: 14776,
+        Kæledyr: "Ja",
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -651,6 +728,7 @@ let data =
         ParcelEllerRækkehuse: 15255,
         Ejerlejlighed: 0,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         Cykel: "Ja"
     },
@@ -659,6 +737,7 @@ let data =
         Postnummer: 8600,
         ParcelEllerRækkehuse: 18535,
         Ejerlejlighed: 34876,
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         OffentligTransport: "Ja"
     },
@@ -666,13 +745,15 @@ let data =
         Kommuner: "Skanderborg",
         Postnummer: 8660,
         ParcelEllerRækkehuse: 24096,
-        Ejerlejlighed: 28356
+        Ejerlejlighed: 28356,
+        BarnEllerBørn: "Ja",
     },
     {
         Kommuner: "Syddjurs",
         Postnummer: 8400,
         ParcelEllerRækkehuse: 15797,
         Ejerlejlighed: 21639,
+        Kæledyr: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -682,6 +763,7 @@ let data =
         Postnummer: 8210,
         ParcelEllerRækkehuse: 35190,
         Ejerlejlighed: 38716,
+        BarnEllerBørn: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
     },
@@ -690,6 +772,7 @@ let data =
         Postnummer: 7400,
         ParcelEllerRækkehuse: 13901,
         Ejerlejlighed: 25651,
+        Kæledyr: "Ja",
         KæresteEllerPartner: "Ja",
         OffentligTransport: "Ja"
     },
@@ -707,8 +790,10 @@ let data =
         Kommuner: "Ikast-Brande",
         Postnummer: 8430,
         ParcelEllerRækkehuse: 11525,
+        Kæledyr: "Ja",
         Ejerlejlighed: 0,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja"
     },
     {
@@ -718,14 +803,17 @@ let data =
         Ejerlejlighed: 0,
         KæresteEllerPartner: "Ja",
         Cykel: "Ja",
+        Kæledyr: "Ja",
         OffentligTransport: "Ja"
     },
     {
         Kommuner: "Ringkøbing-Skjern",
         Postnummer: 6950,
         ParcelEllerRækkehuse: 9454,
+        Kæledyr: "Ja",
         Ejerlejlighed: 19728,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -735,6 +823,7 @@ let data =
         Postnummer: 7800,
         ParcelEllerRækkehuse: 8118,
         Ejerlejlighed: 0,
+        BarnEllerBørn: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -744,7 +833,9 @@ let data =
         Kommuner: "Struer",
         Postnummer: 7600,
         ParcelEllerRækkehuse: 10969,
+        BarnEllerBørn: "Ja",
         Ejerlejlighed: 15899,
+        Kæledyr: "Ja",
         Bil: "Ja"
     },
     {
@@ -753,6 +844,7 @@ let data =
         ParcelEllerRækkehuse: 13468,
         Ejerlejlighed: 8887,
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Bil: "Ja"
     },
     {
@@ -760,6 +852,7 @@ let data =
         Postnummer: 9700,
         ParcelEllerRækkehuse: 9939,
         Ejerlejlighed: 0,
+        BarnEllerBørn: "Ja",
         Bil: "Ja"
     },
     {
@@ -781,7 +874,9 @@ let data =
         Postnummer: 9440,
         ParcelEllerRækkehuse: 9431,
         Ejerlejlighed: 23010,
+        Kæledyr: "Ja",
         KæresteEllerPartner: "Ja",
+        BarnEllerBørn: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
 
@@ -792,6 +887,7 @@ let data =
         ParcelEllerRækkehuse: 6780,
         Ejerlejlighed: 0,
         KæresteEllerPartner: "Ja",
+        Kæledyr: "Ja",
         Bil: "Ja",
         Cykel: "Ja",
         OffentligTransport: "Ja"
@@ -799,6 +895,7 @@ let data =
     },
     {
         Kommuner: "Mariagerfjord",
+        Kæledyr: "Ja",
         Postnummer: 9500,
         ParcelEllerRækkehuse: 10977,
         Ejerlejlighed: 0,
@@ -810,6 +907,7 @@ let data =
         Postnummer: 7900,
         ParcelEllerRækkehuse: 5823,
         Ejerlejlighed: 29872,
+        BarnEllerBørn: "Ja",
         Bil: "Ja"
 
     },
@@ -825,6 +923,7 @@ let data =
         Kommuner: "Thisted",
         Postnummer: 7700,
         ParcelEllerRækkehuse: 10226,
+        Kæledyr: "Ja",
         Ejerlejlighed: 13161,
         Bil: "Ja"
     },
@@ -834,12 +933,15 @@ let data =
         ParcelEllerRækkehuse: 8115,
         Ejerlejlighed: 0,
         KæresteEllerPartner: "Ja",
-        Bil: "Ja"
+        Kæledyr: "Ja",
+        Bil: "Ja",
     },
     {
         Kommuner: "Aalborg",
         Postnummer: 9000,
         ParcelEllerRækkehuse: 18291,
+        Kæledyr: "Ja",
+        BarnEllerBørn: "Ja",
         Ejerlejlighed: 27615,
         Cykel: "Ja",
         OffentligTransport: "Ja"
