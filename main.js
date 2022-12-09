@@ -940,11 +940,16 @@ function results(data, answer) {
 function results(data, answer) {
     const EjerlejlighedPris = 20000
     const ParcelEllerRækkehusePris = 40000
+    const BilTilstede = "Ja"
+    const CykelTilstede = "Ja"
+    const OffentligTransportTilstede = "Ja"
 
     return data
         .filter((datum) => datum.Ejerlejlighed <= EjerlejlighedPris)
         .filter((datum) => datum.ParcelEllerRækkehuse <= ParcelEllerRækkehusePris)
-
+        .filter((datum) => datum.Bil <= BilTilstede )
+        .filter((datum) => datum.Cykel <= CykelTilstede )
+        .filter((datum) => datum.OffentligTransport <= OffentligTransportTilstede)
 
 }
 
