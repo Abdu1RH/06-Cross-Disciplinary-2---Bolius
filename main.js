@@ -111,7 +111,7 @@ let data =
         Kommuner: "Vallensbæk",
         Postnummer: 2625,
         ParcelEllerRækkehuse: 32167,
-        Ejerlejlighed: 27329
+        Ejerlejlighed: 27329,
         KæresteEllerPartner: "Ja",
     },
     {
