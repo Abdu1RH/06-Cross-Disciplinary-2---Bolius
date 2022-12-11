@@ -972,7 +972,7 @@ button.addEventListener("click", function (){
 
     userinput.postNr = document.querySelector("#postNr").value*1
 
-    userinput.indkomst =document.querySelector("#indkomst").value
+    userinput.indkomst =document.querySelector("#indkomst").value*1
 
 
     userinput.kæreste =document.querySelector("#kæreste-partner").checked
@@ -1048,6 +1048,9 @@ function results(data, answer) {
     const Maxpostnummer = (answer.postNr*1) + 500
     console.log(Maxpostnummer)
 
+    const userIndkomst = answer.indkomst
+    console.log(userIndkomst)
+
     //const EjerlejlighedPris = 20000
     //const ParcelEllerRækkehusePris = 40000
 
@@ -1076,7 +1079,7 @@ function results(data, answer) {
     let x = data.filter((datum) => datum.Postnummer > minPostnummer).filter((datum) => datum.Postnummer < Maxpostnummer)
 
     // Filter for spg 2
-    //let filterEjerlejlighed = data.filter((datum) => datum.Ejerlejlighed >minEjerlejlighedspris ).filter((datum) => datum.Ejerlejlighed < maxEjerlejlighedspris)
+    //let filterEjerlejlighed = data.filter((datum) => datum.Ejerlejlighed > minEjerlejlighedspris ).filter((datum) => datum.Ejerlejlighed < maxEjerlejlighedspris)
 
     //let filterParcelellerRækkehus = data.filter((datum) => datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris ).filter((datum) => datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris)
     //
