@@ -1041,33 +1041,65 @@ function results(data, answer) {
 function results(data, answer) {
     const userPostnummer = answer.postNr
     console.log(userPostnummer)
+
     const minPostnummer = (answer.postNr*1) - 500
     console.log(minPostnummer)
-    answer.postNr
+
     const Maxpostnummer = (answer.postNr*1) + 500
     console.log(Maxpostnummer)
-    const EjerlejlighedPris = 20000
-    const ParcelEllerRækkehusePris = 40000
+
+    //const EjerlejlighedPris = 20000
+    //const ParcelEllerRækkehusePris = 40000
+
+    // Filter for spg 2
+    //const minEjerlejlighedspris = (answer.Ejerlejlighed*1) + 10000
+    //console.log(minEjerlejlighedspris)
+
+    //const maxEjerlejlighedspris = (answer.Ejerlejlighed*1) - 10000
+    //console.log(maxEjerlejlighedspris)
+
+
+    //const minParcelEllerRækkehusePris = (answer.ParcelEllerRækkehuse*1) + 10000
+    //console.log(minParcelEllerRækkehusePris)
+
+
+    //const maxParcelEllerRækkehusePris = (answer.ParcelEllerRækkehuse*1) - 10000
+    //console.log(maxParcelEllerRækkehusePris)
+    //
+
+
     const BilTilstede = "Ja"
     const CykelTilstede = "Ja"
     const OffentligTransportTilstede = "Ja"
 
-        let x = data.filter((datum) => datum.Postnummer > minPostnummer).filter((datum) => datum.Postnummer < Maxpostnummer)
 
+    let x = data.filter((datum) => datum.Postnummer > minPostnummer).filter((datum) => datum.Postnummer < Maxpostnummer)
 
+    // Filter for spg 2
+    //let filterEjerlejlighed = data.filter((datum) => datum.Ejerlejlighed >minEjerlejlighedspris ).filter((datum) => datum.Ejerlejlighed < maxEjerlejlighedspris)
 
+    //let filterParcelellerRækkehus = data.filter((datum) => datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris ).filter((datum) => datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris)
+    //
 
     return data
         //.filter((datum) => datum.Postnummer > minPostnummer)
         //.filter((datum) => datum.Postnummer < Maxpostnummer)
+
         .filter(function(datum) {return datum.Postnummer > minPostnummer && datum.Postnummer < Maxpostnummer})
-        /*
+
+        //Filter for spg 2
+        //.filter(function(datum) {return datum.Ejerlejlighed > minEjerlejlighedspris && datum.Ejerlejlighed < maxEjerlejlighedspris})
+
+        //.filter(function(datum) {return datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris && datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris})
+        //
 
 
-        .filter((datum) => datum.Ejerlejlighed <= EjerlejlighedPris)
-        .filter((datum) => datum.ParcelEllerRækkehuse <= ParcelEllerRækkehusePris)
-        .filter((datum) => datum.Bil <= BilTilstede)
-        .filter((datum) => datum.Cykel <= CykelTilstede)
-        .filter((datum) => datum.OffentligTransport <= OffentligTransportTilstede)
-        */
+        //.filter((datum) => datum.Ejerlejlighed <= minEjerlejlighedspris)
+        //.filter((datum) => datum.ParcelEllerRækkehuse <= ParcelEllerRækkehusePris)
+
+
+        //.filter((datum) => datum.Bil <= BilTilstede)
+        //.filter((datum) => datum.Cykel <= CykelTilstede)
+        //.filter((datum) => datum.OffentligTransport <= OffentligTransportTilstede)
+
 }
