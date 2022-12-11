@@ -1082,7 +1082,7 @@ function results(data, answer) {
     //let filterEjerlejlighed = data.filter((datum) => datum.Ejerlejlighed > minEjerlejlighedspris ).filter((datum) => datum.Ejerlejlighed < maxEjerlejlighedspris)
 
     //let filterParcelellerRækkehus = data.filter((datum) => datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris ).filter((datum) => datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris)
-    //
+    ///
 
     return data
         //.filter((datum) => datum.Postnummer > minPostnummer)
