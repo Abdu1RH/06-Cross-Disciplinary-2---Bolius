@@ -970,10 +970,9 @@ button.addEventListener("click", function (){
 
     const userinput = {}
 
-    userinput.postNr = document.querySelector("#postNr").value
+    userinput.postNr = document.querySelector("#postNr").value*1
 
-   userinput.indkomst =document.querySelector("#indkomst").value
-
+    userinput.indkomst =document.querySelector("#indkomst").value
 
 
     userinput.kæreste =document.querySelector("#kæreste-partner").checked
@@ -984,7 +983,7 @@ button.addEventListener("click", function (){
 
     userinput.bil =document.querySelector("#Bil").checked
 
-    userinput.bil1 = document.querySelector("#Bil1").checked
+    //userinput.bil1 = document.querySelector("#Bil1").checked
 
     userinput.offentligTransport = document.querySelector("#OffentligTransport").checked
 
@@ -1040,19 +1039,35 @@ function results(data, answer) {
 
  */
 function results(data, answer) {
+    const userPostnummer = answer.postNr
+    console.log(userPostnummer)
+    const minPostnummer = (answer.postNr*1) - 500
+    console.log(minPostnummer)
+    answer.postNr
+    const Maxpostnummer = (answer.postNr*1) + 500
+    console.log(Maxpostnummer)
     const EjerlejlighedPris = 20000
     const ParcelEllerRækkehusePris = 40000
     const BilTilstede = "Ja"
     const CykelTilstede = "Ja"
     const OffentligTransportTilstede = "Ja"
 
+        let x = data.filter((datum) => datum.Postnummer > minPostnummer).filter((datum) => datum.Postnummer < Maxpostnummer)
+
+
+
+
     return data
+        //.filter((datum) => datum.Postnummer > minPostnummer)
+        //.filter((datum) => datum.Postnummer < Maxpostnummer)
+        .filter(function(datum) {return datum.Postnummer > minPostnummer && datum.Postnummer < Maxpostnummer})
+        /*
+
+
         .filter((datum) => datum.Ejerlejlighed <= EjerlejlighedPris)
         .filter((datum) => datum.ParcelEllerRækkehuse <= ParcelEllerRækkehusePris)
-        .filter((datum) => datum.Bil <= BilTilstede )
-        .filter((datum) => datum.Cykel <= CykelTilstede )
+        .filter((datum) => datum.Bil <= BilTilstede)
+        .filter((datum) => datum.Cykel <= CykelTilstede)
         .filter((datum) => datum.OffentligTransport <= OffentligTransportTilstede)
-
+        */
 }
-
-

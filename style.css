@@ -136,3 +136,24 @@ p{
     margin: auto;
     margin-top: 2rem;
 }
+
+
+.results {
+    overflow: hidden;
+}
+
+.result {
+    float: left;
+    background-color: #EE5C47;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: block; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
