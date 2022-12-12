@@ -975,7 +975,7 @@ button.addEventListener("click", function (){
     userinput.indkomst =document.querySelector("#indkomst").value*1
 
 
-    userinput.kæreste =document.querySelector("#kæreste-partner").checked
+    //userinput.kæreste =document.querySelector("#Kæreste-partner").checked
 
     userinput.barn =document.querySelector("#Barn-børn").checked
 
@@ -998,7 +998,7 @@ button.addEventListener("click", function (){
 
     const filteredPrices = results1(data, userinput)
 
-    const filteredQuestions = results2(data, userinput)
+    //const filteredQuestions = results2(data, userinput)
 })
 
 
@@ -1153,6 +1153,7 @@ function results2(data, answer){
 function filterCheckboxes(clickedBox) {
     // Get the value of the clicked checkbox
     var clickedValue = clickedBox.value;
+    console.log(clickedValue)
 
     // Loop over all the checkboxes on the page
     var checkboxes = document.querySelectorAll('input[type="checkbox"]');
@@ -1166,7 +1167,5 @@ function filterCheckboxes(clickedBox) {
     }
 }
 
-<input type="checkbox" onclick="filterCheckboxes(this)" value="option1">Option 1
-    <input type="checkbox" onclick="filterCheckboxes(this)" value="option2">Option 2
-        <input type="checkbox" onclick="filterCheckboxes(this)" value="option3">Option 3
-
+var result = filterCheckboxes()
+console.log(result)
