@@ -1118,25 +1118,29 @@ function results(data, answer) {
 /*
 function results2(data, answer){
 
+    const KæresteElPartnertilstede = ""
+    console.log(KæresteElPartnertilstede)
 
-    const BilTilstede = " Bil: Ja"
+    const BarnElBørntilstede = ""
+    console.log(BarnElBørntilstede)
+
+    const Kæledyrtilstede = ""
+    console.log(Kæledyrtilstede)
+
+    const BilTilstede = "Bil: Ja"
     console.log(BilTilstede)
-
-    const CykelTilstede = "Cykel: Ja"
-    console.log(CykelTilstede)
 
     const OffentligTransportTilstede = " OffentligTransport: Ja"
     console.log(OffentligTransportTilstede)
 
-
-
-
+    const CykelTilstede = "Cykel: Ja"
+    console.log(CykelTilstede)
 
 
     let filterforBil = data.filter((datum) => datum.Bil <= BilTilstede)
     let filterforCykel = data.filter((datum) => datum.Cykel <= CykelTilstede)
     let filterforOffentligtransport= data.filter((datum) => datum.OffentligTransport <= OffentligTransportTilstede)
-
+    let
 
     return data
 
@@ -1169,3 +1173,10 @@ function filterCheckboxes(clickedBox) {
 
 var result = filterCheckboxes()
 console.log(result)
+
+
+
+window.addEventListener("load", async () => {
+    await toggleVisibility()
+    })
+

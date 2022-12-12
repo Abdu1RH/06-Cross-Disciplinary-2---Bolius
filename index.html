@@ -67,15 +67,32 @@
 
     <input type="checkbox" onclick="filterCheckboxes(this)" id="Ingenaffølgende" value="Ingen af følgende">Ingen af følgende
 
+
 </form>
 
-    <input type="button" id="button" value="Indsend">
+
+    <button type="button" id="button" value="Indsend" onclick="toggleVisibility()"> Indsend</button>
+    <p id="myElement" class="hidden">This paragraph will be hidden until the button is clicked.</p>
+
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+
+    <script>
+        function toggleVisibility() {
+            var element = document.getElementById("results");
+            element.classList.toggle("hidden");
+        }
+    </script>
+
 
 
 </div>
 <br>
 <hr>
-<h1>Vi anbefaler nedestående bolig(er)</h1>
+<h1 id="resulstH1">Vi anbefaler nedestående bolig(er)</h1>
 
 
 
@@ -113,6 +130,26 @@
     class="result"> Ejerlejlighed - Konstabelgade 11A, st., 2650 Hvidovre
     <img class="image" id="paejerlejlighed2" src=".idea/Konstabelgade 11A, st., 2650 Hvidovre.jpg">
 </div>
+
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+
+    <script>
+        function toggleVisibility() {
+            var element = document.getElementById("results");
+            element.classList.toggle("hidden");
+
+            var h1 = document.getElementById("resulstH1");
+            h1.classList.toggle("hidden");
+
+        }
+
+        toggleVisibility()
+    </script>
+
 
 
 
