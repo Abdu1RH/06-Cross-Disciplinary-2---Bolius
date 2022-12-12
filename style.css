@@ -138,8 +138,10 @@ p{
 }
 
 
-.results {
-    overflow: hidden;
+#results {
+    width: 300px;
+    height: auto;
+    align-content: stretch;
 }
 
 .result {
@@ -147,10 +149,10 @@ p{
     float: left;
     box-shadow: 0px 0px 20px rgb(70 140 140 / 10%);
     background: #fff;
-    width: 100px;
-    line-height: 100px;
+    width: auto;
+    line-height: 50px;
     text-align: center;
-    margin: 2px;
+    margin: 2rem;
     display: block; /* Hidden by default */
 }
 
