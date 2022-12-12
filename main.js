@@ -994,8 +994,9 @@ button.addEventListener("click", function (){
     console.log(userinput)
 
     const filteredResults = results(data, userinput)
-
     console.log(filteredResults)
+
+    const filteredPrices = results1(data, userinput)
 })
 
 
@@ -1051,38 +1052,10 @@ function results(data, answer) {
     const userIndkomst = answer.indkomst
     console.log(userIndkomst)
 
-    //const EjerlejlighedPris = 20000
-    //const ParcelEllerRækkehusePris = 40000
-
-    // Filter for spg 2
-    //const minEjerlejlighedspris = (answer.Ejerlejlighed*1) + 10000
-    //console.log(minEjerlejlighedspris)
-
-    //const maxEjerlejlighedspris = (answer.Ejerlejlighed*1) - 10000
-    //console.log(maxEjerlejlighedspris)
-
-
-    //const minParcelEllerRækkehusePris = (answer.ParcelEllerRækkehuse*1) + 10000
-    //console.log(minParcelEllerRækkehusePris)
-
-
-    //const maxParcelEllerRækkehusePris = (answer.ParcelEllerRækkehuse*1) - 10000
-    //console.log(maxParcelEllerRækkehusePris)
-    //
-
-
-    const BilTilstede = "Ja"
-    const CykelTilstede = "Ja"
-    const OffentligTransportTilstede = "Ja"
-
+    //console.log(answer)
 
     let x = data.filter((datum) => datum.Postnummer > minPostnummer).filter((datum) => datum.Postnummer < Maxpostnummer)
-
-    // Filter for spg 2
-    //let filterEjerlejlighed = data.filter((datum) => datum.Ejerlejlighed > minEjerlejlighedspris ).filter((datum) => datum.Ejerlejlighed < maxEjerlejlighedspris)
-
-    //let filterParcelellerRækkehus = data.filter((datum) => datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris ).filter((datum) => datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris)
-    ///
+    console.log(x)
 
     return data
         //.filter((datum) => datum.Postnummer > minPostnummer)
@@ -1090,19 +1063,63 @@ function results(data, answer) {
 
         .filter(function(datum) {return datum.Postnummer > minPostnummer && datum.Postnummer < Maxpostnummer})
 
-        //Filter for spg 2
-        //.filter(function(datum) {return datum.Ejerlejlighed > minEjerlejlighedspris && datum.Ejerlejlighed < maxEjerlejlighedspris})
-
-        //.filter(function(datum) {return datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris && datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris})
-        //
+}
 
 
-        //.filter((datum) => datum.Ejerlejlighed <= minEjerlejlighedspris)
-        //.filter((datum) => datum.ParcelEllerRækkehuse <= ParcelEllerRækkehusePris)
+
+    function results1(data, answer){
+
+    const minEjerlejlighedspris = (answer.indkomst*1) + 10000
+    console.log(minEjerlejlighedspris)
+
+    const maxEjerlejlighedspris = (answer.indkomst*1) - 10000
+    console.log(maxEjerlejlighedspris)
+
+    const minParcelEllerRækkehusePris = (answer.indkomst*1) + 10000
+    console.log(minParcelEllerRækkehusePris)
+
+    const maxParcelEllerRækkehusePris = (answer.indkomst*1) - 10000
+    console.log(maxParcelEllerRækkehusePris)
+
+        /*
+        console.log("Virker dette??")
+        console.log(minEjerlejlighedspris)
+        console.log(data[0].Ejerlejlighed);
+        console.log(data.filter((datum) => datum.Ejerlejlighed.Ejerlejlighed != minEjerlejlighedspris))
+        console.log("Efter??")
+        */
 
 
-        //.filter((datum) => datum.Bil <= BilTilstede)
-        //.filter((datum) => datum.Cykel <= CykelTilstede)
-        //.filter((datum) => datum.OffentligTransport <= OffentligTransportTilstede)
+    let filterEjerlejlighed = data.filter((datum) => datum.Ejerlejlighed > minEjerlejlighedspris)//
+    let filterMaxEjerlejlighed = data.filter((datum) => datum.Ejerlejlighed < maxEjerlejlighedspris)
+        console.log(filterEjerlejlighed)
+        console.log(filterMaxEjerlejlighed)
+
+    let filterParcelellerRækkehus = data.filter((datum) => datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris)
+    let filterMaxParcelellerRækkehus = data.filter((datum) => datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris)
+        console.log(filterParcelellerRækkehus)
+        console.log(filterMaxParcelellerRækkehus)
+
+    return data
+
+        .filter(function(datum) {return datum.Ejerlejlighed > minEjerlejlighedspris})
+
+        .filter(function(datum) {return datum.Ejerlejlighed < maxEjerlejlighedspris})
+
+
+        .filter(function(datum) {return datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris})
+
+        .filter(function(datum) {return datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris})
 
 }
+
+function results2(data, answer){
+
+    const BilTilstede = "Ja"
+    const CykelTilstede = "Ja"
+    const OffentligTransportTilstede = "Ja"
+
+
+}
+
+
