@@ -99,7 +99,7 @@ body {
     background: #fff;
     position: relative;
     z-index: 100;
-    margin-top: 350%
+    margin-top: 80%;
 }
 
 
@@ -139,9 +139,7 @@ p{
 
 
 #results {
-    width: 300px;
-    height: auto;
-    align-content: stretch;
+
 }
 
 .result {
@@ -150,10 +148,16 @@ p{
     box-shadow: 0px 0px 20px rgb(70 140 140 / 10%);
     background: #fff;
     width: auto;
+    height: auto;
     line-height: 50px;
     text-align: center;
     margin: 2rem;
     display: block; /* Hidden by default */
+}
+.image {
+    width: 300px;
+    height: auto;
+    align-content: stretch;
 }
 
 /* The "show" class is added to the filtered elements */
