@@ -997,6 +997,8 @@ button.addEventListener("click", function (){
     console.log(filteredResults)
 
     const filteredPrices = results1(data, userinput)
+
+    const filteredQuestions = results2(data, userinput)
 })
 
 
@@ -1113,13 +1115,58 @@ function results(data, answer) {
 
 }
 
+/*
 function results2(data, answer){
 
-    const BilTilstede = "Ja"
-    const CykelTilstede = "Ja"
-    const OffentligTransportTilstede = "Ja"
+
+    const BilTilstede = " Bil: Ja"
+    console.log(BilTilstede)
+
+    const CykelTilstede = "Cykel: Ja"
+    console.log(CykelTilstede)
+
+    const OffentligTransportTilstede = " OffentligTransport: Ja"
+    console.log(OffentligTransportTilstede)
+
+
+
+
+
+
+    let filterforBil = data.filter((datum) => datum.Bil <= BilTilstede)
+    let filterforCykel = data.filter((datum) => datum.Cykel <= CykelTilstede)
+    let filterforOffentligtransport= data.filter((datum) => datum.OffentligTransport <= OffentligTransportTilstede)
+
+
+    return data
+
+    .filter((datum) => datum.Bil <= BilTilstede)
+    .filter((datum) => datum.Cykel <= CykelTilstede)
+    .filter((datum) => datum.OffentligTransport <= OffentligTransportTilstede)
 
 
 }
 
+ */
+
+
+function filterCheckboxes(clickedBox) {
+    // Get the value of the clicked checkbox
+    var clickedValue = clickedBox.value;
+
+    // Loop over all the checkboxes on the page
+    var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    for (var i = 0; i < checkboxes.length; i++) {
+        var checkbox = checkboxes[i];
+
+        // If the checkbox does not have the same value as the clicked checkbox, then uncheck it
+        if (checkbox.value !== clickedValue) {
+            checkbox.checked = false;
+        }
+    }
+}
+
+<input type="checkbox" onclick="filterCheckboxes(this)" value="option1">Option 1
+    <input type="checkbox" onclick="filterCheckboxes(this)" value="option2">Option 2
+        <input type="checkbox" onclick="filterCheckboxes(this)" value="option3">Option 3
 
