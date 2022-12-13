@@ -4,7 +4,7 @@
 let data =
 [
     {
-        Kommuner: "København",
+        Kommune: "København",
         Postnummer: 2100,
         ParcelEllerRækkehuse: 64034,
         Ejerlejlighed: 55018,
@@ -17,7 +17,7 @@ let data =
 
     },
     {
-        Kommuner: "Frederiksberg",
+        Kommune: "Frederiksberg",
         Postnummer: 1800,
         ParcelEllerRækkehuse: 93739,
         Ejerlejlighed: 63459,
@@ -25,7 +25,7 @@ let data =
         OffentligTransport: "Ja",
     },
     {
-        Kommuner: "Dragør",
+        Kommune: "Dragør",
         Postnummer: 2791,
         ParcelEllerRækkehuse: 52678,
         Ejerlejlighed: 38333,
@@ -33,7 +33,7 @@ let data =
         Bil: "Ja"
     },
     {
-        Kommuner: "Tårnby",
+        Kommune: "Tårnby",
         Postnummer: 2770,
         ParcelEllerRækkehuse: 39620,
         Ejerlejlighed: 38057,
@@ -41,15 +41,16 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Albertslund",
+        Kommune: "Albertslund",
         Postnummer: 2620,
         ParcelEllerRækkehuse: 27484,
         Ejerlejlighed: 21980,
+        KæresteEllerPartner: "Ja",
         BarnEllerBørn: "Ja",
         Bil: "Ja"
     },
     {
-        Kommuner: "Ballerup",
+        Kommune: "Ballerup",
         Postnummer: 2750,
         ParcelEllerRækkehuse: 36322,
         Ejerlejlighed: 29655,
@@ -57,7 +58,7 @@ let data =
         Bil: "Ja"
     },
     {
-        Kommuner: "Brøndby",
+        Kommune: "Brøndby",
         Postnummer: 2660,
         ParcelEllerRækkehuse: 33517,
         Ejerlejlighed: 25873,
@@ -67,7 +68,7 @@ let data =
         Bil: "Ja",
     },
     {
-        Kommuner: "Gentofte",
+        Kommune: "Gentofte",
         Postnummer: 2820,
         ParcelEllerRækkehuse: 87976,
         Ejerlejlighed: 59006,
@@ -76,7 +77,7 @@ let data =
         Kæledyr: "Ja",
     },
     {
-        Kommuner: "Gladsaxe",
+        Kommune: "Gladsaxe",
         Postnummer: 2860,
         ParcelEllerRækkehuse: 54860,
         Ejerlejlighed: 33090,
@@ -85,7 +86,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Glostrup",
+        Kommune: "Glostrup",
         Postnummer: 2600,
         ParcelEllerRækkehuse: 33626,
         Ejerlejlighed: 31334,
@@ -94,7 +95,7 @@ let data =
         Kæledyr: "Ja",
     },
     {
-        Kommuner: "Herlev",
+        Kommune: "Herlev",
         Postnummer: 2730,
         ParcelEllerRækkehuse: 36661,
         Ejerlejlighed: 31721,
@@ -102,14 +103,14 @@ let data =
         Kæledyr: "Ja",
     },
     {
-        Kommuner: "Hvidovre",
+        Kommune: "Hvidovre",
         Postnummer: 2650,
         ParcelEllerRækkehuse: 36578,
         Ejerlejlighed: 33775,
         Bil: "Ja"
     },
     {
-        Kommuner: "Høje-Taastrup",
+        Kommune: "Høje-Taastrup",
         Postnummer: 2630,
         ParcelEllerRækkehuse: 28664,
         Ejerlejlighed: 29035,
@@ -120,7 +121,7 @@ let data =
 
     },
     {
-        Kommuner: "Ishøj",
+        Kommune: "Ishøj",
         Postnummer: 2635,
         ParcelEllerRækkehuse: 24516,
         Ejerlejlighed: 28003,
@@ -130,7 +131,7 @@ let data =
 
     },
     {
-        Kommuner: "Lyngby-Taarbæk",
+        Kommune: "Lyngby-Taarbæk",
         Postnummer: 2800,
         ParcelEllerRækkehuse: 57800,
         Ejerlejlighed: 40371,
@@ -141,7 +142,7 @@ let data =
 
     },
     {
-        Kommuner: "Rødovre",
+        Kommune: "Rødovre",
         Postnummer: 2610,
         ParcelEllerRækkehuse: 36360,
         Ejerlejlighed: 35364,
@@ -152,7 +153,7 @@ let data =
 
     },
     {
-        Kommuner: "Vallensbæk",
+        Kommune: "Vallensbæk",
         Postnummer: 2625,
         ParcelEllerRækkehuse: 32167,
         Ejerlejlighed: 27329,
@@ -162,7 +163,7 @@ let data =
         Bil: "Ja"
     },
     {
-        Kommuner: "Allerød",
+        Kommune: "Allerød",
         Postnummer: 3450,
         ParcelEllerRækkehuse: 34354,
         Ejerlejlighed: 27109,
@@ -171,7 +172,7 @@ let data =
 
     },
     {
-        Kommuner: "Egedal",
+        Kommune: "Egedal",
         Postnummer: 3650,
         ParcelEllerRækkehuse: 26872,
         Ejerlejlighed: 32829,
@@ -180,7 +181,7 @@ let data =
 
     },
     {
-        Kommuner: "Fredensborg",
+        Kommune: "Fredensborg",
         Postnummer: 3480,
         ParcelEllerRækkehuse: 32076,
         Ejerlejlighed: 25350,
@@ -190,7 +191,7 @@ let data =
 
     },
     {
-        Kommuner: "Frederikssund",
+        Kommune: "Frederikssund",
         Postnummer: 3600,
         ParcelEllerRækkehuse: 21333,
         Ejerlejlighed: 23913,
@@ -200,14 +201,14 @@ let data =
         Cykel: "Ja"
     },
     {
-        Kommuner: "Halsnæs",
+        Kommune: "Halsnæs",
         Postnummer: 3310,
         ParcelEllerRækkehuse: 21986,
         Ejerlejlighed: 19632,
         Bil: "Ja"
     },
     {
-        Kommuner: "Furesø",
+        Kommune: "Furesø",
         Postnummer: 3670,
         ParcelEllerRækkehuse: 40761,
         Ejerlejlighed: 32010,
@@ -216,7 +217,7 @@ let data =
 
     },
     {
-        Kommuner: "Gribskov",
+        Kommune: "Gribskov",
         Postnummer: 3200,
         ParcelEllerRækkehuse: 26415,
         Ejerlejlighed: 16579,
@@ -225,7 +226,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Helsingør",
+        Kommune: "Helsingør",
         Postnummer: 3000,
         ParcelEllerRækkehuse: 33283,
         Ejerlejlighed: 28942,
@@ -236,7 +237,7 @@ let data =
 
     },
     {
-        Kommuner: "Hillerød",
+        Kommune: "Hillerød",
         Postnummer: 3400,
         ParcelEllerRækkehuse: 32765,
         Ejerlejlighed: 30141,
@@ -244,7 +245,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Hørsholm",
+        Kommune: "Hørsholm",
         Postnummer: 2970,
         ParcelEllerRækkehuse: 60545,
         Ejerlejlighed: 39319,
@@ -254,7 +255,7 @@ let data =
 
     },
     {
-        Kommuner: "Rudersdal",
+        Kommune: "Rudersdal",
         Postnummer: 2840,
         ParcelEllerRækkehuse: 52031,
         Ejerlejlighed: 40476,
@@ -262,7 +263,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Bornholm",
+        Kommune: "Bornholm",
         Postnummer: 3700,
         ParcelEllerRækkehuse: 11823,
         Ejerlejlighed: 20884,
@@ -272,7 +273,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Greve",
+        Kommune: "Greve",
         Postnummer: 2670,
         ParcelEllerRækkehuse: 31451,
         Ejerlejlighed: 29167,
@@ -281,7 +282,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Køge",
+        Kommune: "Køge",
         Postnummer: 4600,
         ParcelEllerRækkehuse: 25264,
         Ejerlejlighed: 35928,
@@ -291,7 +292,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Lejre",
+        Kommune: "Lejre",
         Postnummer: 4320,
         ParcelEllerRækkehuse: 24289,
         Ejerlejlighed: 32789,
@@ -301,7 +302,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Roskilde",
+        Kommune: "Roskilde",
         Postnummer: 4000,
         ParcelEllerRækkehuse: 30086,
         Ejerlejlighed: 32519,
@@ -309,7 +310,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Solrød",
+        Kommune: "Solrød",
         Postnummer: 2680,
         ParcelEllerRækkehuse: 32298,
         Ejerlejlighed: 28542,
@@ -319,7 +320,7 @@ let data =
 
     },
     {
-        Kommuner: "Faxe",
+        Kommune: "Faxe",
         Postnummer: 4640,
         ParcelEllerRækkehuse: 14945,
         Ejerlejlighed: 0,
@@ -327,7 +328,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Guldborgsund",
+        Kommune: "Guldborgsund",
         Postnummer: 4862,
         ParcelEllerRækkehuse: 9647,
         Ejerlejlighed: 8838,
@@ -336,7 +337,7 @@ let data =
         Kæledyr: "Ja",
     },
     {
-        Kommuner: "Holbæk",
+        Kommune: "Holbæk",
         Postnummer: 4300,
         ParcelEllerRækkehuse: 18046,
         Ejerlejlighed: 17418,
@@ -346,7 +347,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Kalundborg",
+        Kommune: "Kalundborg",
         Postnummer: 4400,
         ParcelEllerRækkehuse: 10090,
         Ejerlejlighed: 0,
@@ -354,7 +355,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Lolland",
+        Kommune: "Lolland",
         Postnummer: 4900,
         ParcelEllerRækkehuse: 6723,
         Ejerlejlighed: 0,
@@ -363,7 +364,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Næstved",
+        Kommune: "Næstved",
         Postnummer: 4700,
         ParcelEllerRækkehuse: 13349,
         Ejerlejlighed: 14682,
@@ -373,7 +374,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Odsherred",
+        Kommune: "Odsherred",
         Postnummer: 4500,
         ParcelEllerRækkehuse: 11658,
         Ejerlejlighed: 12737,
@@ -384,7 +385,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Ringsted",
+        Kommune: "Ringsted",
         Postnummer: 4100,
         ParcelEllerRækkehuse: 17139,
         Ejerlejlighed: 0,
@@ -394,7 +395,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Slagelse",
+        Kommune: "Slagelse",
         Postnummer: 4200,
         ParcelEllerRækkehuse: 13150,
         Ejerlejlighed: 11920,
@@ -405,7 +406,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Sorø",
+        Kommune: "Sorø",
         Postnummer: 4180,
         ParcelEllerRækkehuse: 15219,
         Ejerlejlighed: 12750,
@@ -414,7 +415,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Stevns",
+        Kommune: "Stevns",
         Postnummer: 4673,
         ParcelEllerRækkehuse: 19136,
         Ejerlejlighed: 20641,
@@ -424,7 +425,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Vordingborg",
+        Kommune: "Vordingborg",
         Postnummer: 4760,
         ParcelEllerRækkehuse: 12344,
         Ejerlejlighed: 13125,
@@ -435,7 +436,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Assens",
+        Kommune: "Assens",
         Postnummer: 5610,
         ParcelEllerRækkehuse: 9811,
         Ejerlejlighed: 0,
@@ -445,7 +446,7 @@ let data =
 
     },
     {
-        Kommuner: "Faaborg-Midtfyn",
+        Kommune: "Faaborg-Midtfyn",
         Postnummer: 5600,
         ParcelEllerRækkehuse: 10657,
         Ejerlejlighed: 14792,
@@ -455,7 +456,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Kerteminde",
+        Kommune: "Kerteminde",
         Postnummer: 5300,
         ParcelEllerRækkehuse: 16342,
         Ejerlejlighed: 0,
@@ -465,7 +466,7 @@ let data =
 
     },
     {
-        Kommuner: "Langeland",
+        Kommune: "Langeland",
         Postnummer: 5900,
         ParcelEllerRækkehuse: 7652,
         Ejerlejlighed: 15076,
@@ -474,7 +475,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Middelfart",
+        Kommune: "Middelfart",
         Postnummer: 5500,
         ParcelEllerRækkehuse: 15420,
         Ejerlejlighed: 44091,
@@ -484,7 +485,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Nordfyns",
+        Kommune: "Nordfyns",
         Postnummer: 5450,
         ParcelEllerRækkehuse: 9637,
         Ejerlejlighed: 0,
@@ -495,7 +496,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Nyborg",
+        Kommune: "Nyborg",
         Postnummer: 5800,
         ParcelEllerRækkehuse: 11420,
         Ejerlejlighed: 26835,
@@ -505,7 +506,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Odense",
+        Kommune: "Odense",
         Postnummer: 5000,
         ParcelEllerRækkehuse: 20452,
         Ejerlejlighed: 24332,
@@ -514,7 +515,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Svendborg",
+        Kommune: "Svendborg",
         Postnummer: 5881,
         ParcelEllerRækkehuse: 15923,
         Ejerlejlighed: 44985,
@@ -525,7 +526,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Ærø",
+        Kommune: "Ærø",
         Postnummer: 5970,
         ParcelEllerRækkehuse: 13762,
         Ejerlejlighed: 0,
@@ -537,7 +538,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Billund",
+        Kommune: "Billund",
         Postnummer: 7190,
         ParcelEllerRækkehuse: 12398,
         Ejerlejlighed: 0,
@@ -549,7 +550,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Esbjerg",
+        Kommune: "Esbjerg",
         Postnummer: 6700,
         ParcelEllerRækkehuse: 15564,
         Ejerlejlighed: 19146,
@@ -559,7 +560,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Fanø",
+        Kommune: "Fanø",
         Postnummer: 6720,
         ParcelEllerRækkehuse: 16340,
         Ejerlejlighed: 0,
@@ -570,7 +571,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Fredericia",
+        Kommune: "Fredericia",
         Postnummer: 7000,
         ParcelEllerRækkehuse: 17672,
         Ejerlejlighed: 15629,
@@ -581,7 +582,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Haderslev",
+        Kommune: "Haderslev",
         Postnummer: 6070,
         ParcelEllerRækkehuse: 9148,
         Ejerlejlighed: 12061,
@@ -591,7 +592,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Kolding",
+        Kommune: "Kolding",
         Postnummer: 6000,
         ParcelEllerRækkehuse: 17208,
         Ejerlejlighed: 15569,
@@ -602,7 +603,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Sønderborg",
+        Kommune: "Sønderborg",
         Postnummer: 6400,
         ParcelEllerRækkehuse: 10213,
         Ejerlejlighed: 15765,
@@ -611,7 +612,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Tønder",
+        Kommune: "Tønder",
         Postnummer: 6240,
         ParcelEllerRækkehuse: 6812,
         Ejerlejlighed: 11422,
@@ -619,7 +620,7 @@ let data =
         Bil: "Ja",
     },
     {
-        Kommuner: "Varde",
+        Kommune: "Varde",
         Postnummer: 6682,
         ParcelEllerRækkehuse: 8339,
         Ejerlejlighed: 15524,
@@ -630,7 +631,7 @@ let data =
 
     },
     {
-        Kommuner: "Vejen",
+        Kommune: "Vejen",
         Postnummer: 6510,
         ParcelEllerRækkehuse: 9595,
         Kæledyr: "Ja",
@@ -640,7 +641,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Vejle",
+        Kommune: "Vejle",
         Postnummer: 7100,
         ParcelEllerRækkehuse: 18100,
         Ejerlejlighed: 18898,
@@ -651,7 +652,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Aabenraa",
+        Kommune: "Aabenraa",
         Postnummer: 6200,
         ParcelEllerRækkehuse: 12512,
         Ejerlejlighed: 26146,
@@ -660,7 +661,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Favrskov",
+        Kommune: "Favrskov",
         Postnummer: 8881,
         ParcelEllerRækkehuse: 15786,
         Ejerlejlighed: 0,
@@ -670,7 +671,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Hedensted",
+        Kommune: "Hedensted",
         Postnummer: 8722,
         ParcelEllerRækkehuse: 12642,
         Ejerlejlighed: 0,
@@ -681,7 +682,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Horsens",
+        Kommune: "Horsens",
         Postnummer: 8700,
         ParcelEllerRækkehuse: 16003,
         Ejerlejlighed: 19977,
@@ -691,7 +692,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Norddjurs",
+        Kommune: "Norddjurs",
         Postnummer: 8500,
         ParcelEllerRækkehuse: 7714,
         Ejerlejlighed: 0,
@@ -701,7 +702,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Odder",
+        Kommune: "Odder",
         Postnummer: 8300,
         ParcelEllerRækkehuse: 15654,
         Ejerlejlighed: 0,
@@ -711,7 +712,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Randers",
+        Kommune: "Randers",
         Postnummer: 8920,
         ParcelEllerRækkehuse: 12387,
         Ejerlejlighed: 14776,
@@ -723,7 +724,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Samsø",
+        Kommune: "Samsø",
         Postnummer: 8305,
         ParcelEllerRækkehuse: 15255,
         Ejerlejlighed: 0,
@@ -733,7 +734,7 @@ let data =
         Cykel: "Ja"
     },
     {
-        Kommuner: "Silkeborg",
+        Kommune: "Silkeborg",
         Postnummer: 8600,
         ParcelEllerRækkehuse: 18535,
         Ejerlejlighed: 34876,
@@ -742,14 +743,14 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Skanderborg",
+        Kommune: "Skanderborg",
         Postnummer: 8660,
         ParcelEllerRækkehuse: 24096,
         Ejerlejlighed: 28356,
         BarnEllerBørn: "Ja",
     },
     {
-        Kommuner: "Syddjurs",
+        Kommune: "Syddjurs",
         Postnummer: 8400,
         ParcelEllerRækkehuse: 15797,
         Ejerlejlighed: 21639,
@@ -759,7 +760,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Århus",
+        Kommune: "Århus",
         Postnummer: 8210,
         ParcelEllerRækkehuse: 35190,
         Ejerlejlighed: 38716,
@@ -768,7 +769,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Herning",
+        Kommune: "Herning",
         Postnummer: 7400,
         ParcelEllerRækkehuse: 13901,
         Ejerlejlighed: 25651,
@@ -777,7 +778,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Holstebro",
+        Kommune: "Holstebro",
         Postnummer: 7500,
         ParcelEllerRækkehuse: 15108,
         Ejerlejlighed: 19651,
@@ -787,7 +788,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Ikast-Brande",
+        Kommune: "Ikast-Brande",
         Postnummer: 8430,
         ParcelEllerRækkehuse: 11525,
         Kæledyr: "Ja",
@@ -797,7 +798,7 @@ let data =
         Bil: "Ja"
     },
     {
-        Kommuner: "Lemvig",
+        Kommune: "Lemvig",
         Postnummer: 7620,
         ParcelEllerRækkehuse: 7985,
         Ejerlejlighed: 0,
@@ -807,7 +808,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Ringkøbing-Skjern",
+        Kommune: "Ringkøbing-Skjern",
         Postnummer: 6950,
         ParcelEllerRækkehuse: 9454,
         Kæledyr: "Ja",
@@ -819,7 +820,7 @@ let data =
         OffentligTransport: "Ja"
     },
     {
-        Kommuner: "Skive",
+        Kommune: "Skive",
         Postnummer: 7800,
         ParcelEllerRækkehuse: 8118,
         Ejerlejlighed: 0,
@@ -830,7 +831,7 @@ let data =
 
     },
     {
-        Kommuner: "Struer",
+        Kommune: "Struer",
         Postnummer: 7600,
         ParcelEllerRækkehuse: 10969,
         BarnEllerBørn: "Ja",
@@ -839,7 +840,7 @@ let data =
         Bil: "Ja"
     },
     {
-        Kommuner: "Viborg",
+        Kommune: "Viborg",
         Postnummer: 8800,
         ParcelEllerRækkehuse: 13468,
         Ejerlejlighed: 8887,
@@ -848,7 +849,7 @@ let data =
         Bil: "Ja"
     },
     {
-        Kommuner: "Brønderslev",
+        Kommune: "Brønderslev",
         Postnummer: 9700,
         ParcelEllerRækkehuse: 9939,
         Ejerlejlighed: 0,
@@ -856,7 +857,7 @@ let data =
         Bil: "Ja"
     },
     {
-        Kommuner: "Frederikshavn",
+        Kommune: "Frederikshavn",
         Postnummer: 9900,
         ParcelEllerRækkehuse: 11210,
         Ejerlejlighed: 21397,
@@ -864,13 +865,13 @@ let data =
         Bil: "Ja"
     },
     {
-        Kommuner: "Hjørring",
+        Kommune: "Hjørring",
         Postnummer: 9800,
         ParcelEllerRækkehuse: 10143,
         Ejerlejlighed: 14975
     },
    {
-        Kommuner: "Jammerbugt",
+        Kommune: "Jammerbugt",
         Postnummer: 9440,
         ParcelEllerRækkehuse: 9431,
         Ejerlejlighed: 23010,
@@ -882,7 +883,7 @@ let data =
 
    },
     {
-        Kommuner: "Læsø",
+        Kommune: "Læsø",
         Postnummer: 4900,
         ParcelEllerRækkehuse: 6780,
         Ejerlejlighed: 0,
@@ -894,7 +895,7 @@ let data =
 
     },
     {
-        Kommuner: "Mariagerfjord",
+        Kommune: "Mariagerfjord",
         Kæledyr: "Ja",
         Postnummer: 9500,
         ParcelEllerRækkehuse: 10977,
@@ -903,7 +904,7 @@ let data =
 
     },
     {
-        Kommuner: "Morsø",
+        Kommune: "Morsø",
         Postnummer: 7900,
         ParcelEllerRækkehuse: 5823,
         Ejerlejlighed: 29872,
@@ -912,7 +913,7 @@ let data =
 
     },
     {
-        Kommuner: "Rebild",
+        Kommune: "Rebild",
         Postnummer: 9520,
         ParcelEllerRækkehuse: 15427,
         Ejerlejlighed: 0,
@@ -920,7 +921,7 @@ let data =
 
     },
     {
-        Kommuner: "Thisted",
+        Kommune: "Thisted",
         Postnummer: 7700,
         ParcelEllerRækkehuse: 10226,
         Kæledyr: "Ja",
@@ -928,7 +929,7 @@ let data =
         Bil: "Ja"
     },
     {
-        Kommuner: "Vesthimmerlands",
+        Kommune: "Vesthimmerlands",
         Postnummer: 9640,
         ParcelEllerRækkehuse: 8115,
         Ejerlejlighed: 0,
@@ -937,7 +938,7 @@ let data =
         Bil: "Ja",
     },
     {
-        Kommuner: "Aalborg",
+        Kommune: "Aalborg",
         Postnummer: 9000,
         ParcelEllerRækkehuse: 18291,
         Kæledyr: "Ja",
@@ -964,18 +965,18 @@ function check () {
  */
 
 const button = document.querySelector('#button');
-console.log(button)
+//console.log(button)
 button.addEventListener("click", function (){
-    console.log("Indsend klikket")
+    //console.log("Indsend klikket")
 
     const userinput = {}
 
     userinput.postNr = document.querySelector("#postNr").value*1
 
-    userinput.indkomst =document.querySelector("#indkomst").value*1
+    userinput.indkomst = document.querySelector("#indkomst").value*1
 
 
-    //userinput.kæreste =document.querySelector("#Kæreste-partner").checked
+    userinput.kæreste = document.querySelector("#KærestePartner").checked
 
     userinput.barn =document.querySelector("#Barn-børn").checked
 
@@ -992,13 +993,14 @@ button.addEventListener("click", function (){
     userinput.ingen = document.querySelector("#Ingenaffølgende").checked ?? false
 
     console.log(userinput)
+    const filteredResults = results(data, userinput);
 
-    const filteredResults = results(data, userinput)
-    console.log(filteredResults)
+    const filteredPrices = results1(filteredResults, userinput)
+    //console.log("************************************")
+    //console.log(filteredPrices)
 
-    const filteredPrices = results1(data, userinput)
-
-    //const filteredQuestions = results2(data, userinput)
+    const filteredQuestions = results2(filteredPrices, userinput)
+    //console.log(filteredQuestions)
 })
 
 
@@ -1007,7 +1009,7 @@ function checkIfAvailable(Post) {
     let postNummer = data.map((hus)=>{
         return hus.Postnummer;
     })
-    console.log(postNummer.indexOf(parseInt(Post)))
+    //console.log(postNummer.indexOf(parseInt(Post)))
     return(postNummer.indexOf(parseInt(Post)) != -1)
 }
 
@@ -1043,7 +1045,7 @@ function results(data, answer) {
  */
 function results(data, answer) {
     const userPostnummer = answer.postNr
-    console.log(userPostnummer)
+    //console.log(userPostnummer)
 
     const minPostnummer = (answer.postNr*1) - 500
     console.log(minPostnummer)
@@ -1057,7 +1059,7 @@ function results(data, answer) {
     //console.log(answer)
 
     let x = data.filter((datum) => datum.Postnummer > minPostnummer).filter((datum) => datum.Postnummer < Maxpostnummer)
-    console.log(x)
+    //console.log(x)
 
     return data
         //.filter((datum) => datum.Postnummer > minPostnummer)
@@ -1069,18 +1071,20 @@ function results(data, answer) {
 
 
 
-    function results1(data, answer){
+function results1(data, answer){
 
-    const minEjerlejlighedspris = (answer.indkomst*1) + 10000
+    console.log("Inside results1");
+    console.log(data);
+    const minEjerlejlighedspris = (answer.indkomst*1) - 10000
     console.log(minEjerlejlighedspris)
 
-    const maxEjerlejlighedspris = (answer.indkomst*1) - 10000
+    const maxEjerlejlighedspris = (answer.indkomst*1) + 10000
     console.log(maxEjerlejlighedspris)
 
-    const minParcelEllerRækkehusePris = (answer.indkomst*1) + 10000
+    const minParcelEllerRækkehusePris = (answer.indkomst*1) - 10000
     console.log(minParcelEllerRækkehusePris)
 
-    const maxParcelEllerRækkehusePris = (answer.indkomst*1) - 10000
+    const maxParcelEllerRækkehusePris = (answer.indkomst*1) + 10000
     console.log(maxParcelEllerRækkehusePris)
 
         /*
@@ -1091,92 +1095,121 @@ function results(data, answer) {
         console.log("Efter??")
         */
 
-
+/*
     let filterEjerlejlighed = data.filter((datum) => datum.Ejerlejlighed > minEjerlejlighedspris)//
     let filterMaxEjerlejlighed = data.filter((datum) => datum.Ejerlejlighed < maxEjerlejlighedspris)
-        console.log(filterEjerlejlighed)
-        console.log(filterMaxEjerlejlighed)
+        //console.log(filterEjerlejlighed)
+        //console.log(filterMaxEjerlejlighed)
 
     let filterParcelellerRækkehus = data.filter((datum) => datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris)
     let filterMaxParcelellerRækkehus = data.filter((datum) => datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris)
-        console.log(filterParcelellerRækkehus)
-        console.log(filterMaxParcelellerRækkehus)
+        //console.log(filterParcelellerRækkehus)
+        //console.log(filterMaxParcelellerRækkehus)
 
-    return data
+ */
+    let resultforMinEjerlejlighedspris = data.filter(function(datum) {
+        return datum.Ejerlejlighed > minEjerlejlighedspris && datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris
+    })
+    console.log("resultforMinEjerlejlighedspris");
+    //console.log(resultforMinEjerlejlighedspris);
 
-        .filter(function(datum) {return datum.Ejerlejlighed > minEjerlejlighedspris})
+    let resultforMaxEjerlejlighedspris = resultforMinEjerlejlighedspris.filter(function(datum) {
+        return datum.Ejerlejlighed < maxEjerlejlighedspris && datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris
+    })
+    // Det nyeste array
+    console.log("resultforMaxEjerlejlighedspris")
+    console.log(resultforMaxEjerlejlighedspris);
+    /*
+    let resultforminParcelEllerRækkehusePris = resultforMaxEjerlejlighedspris.filter(function(datum) {return datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris})
+    console.log(resultforminParcelEllerRækkehusePris)
 
-        .filter(function(datum) {return datum.Ejerlejlighed < maxEjerlejlighedspris})
+    let resultformaxParcelEllerRækkehusePris = resultforminParcelEllerRækkehusePris.filter(function(datum) {return datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris})
+    console.log(resultformaxParcelEllerRækkehusePris)
+    */
+    return resultforMinEjerlejlighedspris;
+
+    /*
 
 
-        .filter(function(datum) {return datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris})
+    let resultforminParcelEllerRækkehusePris = data.filter(function(datum) {return datum.Ejerlejlighed < maxEjerlejlighedspris})
+    console.log(resultforminParcelEllerRækkehusePris)
+    return resultforminParcelEllerRækkehusePris
 
-        .filter(function(datum) {return datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris})
+    let resultformaxParcelEllerRækkehusePris = data.filter(function(datum) {return datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris})
+    console.log(resultformaxParcelEllerRækkehusePris)
+    return resultformaxParcelEllerRækkehusePris*/
 
 }
 
-/*
+
 function results2(data, answer){
+    let kæresteEllerPartnerTilstede;
+    if(answer.kæreste === true){
+        kæresteEllerPartnerTilstede = "Ja";
+    }
+    console.log(kæresteEllerPartnerTilstede)
 
-    const KæresteElPartnertilstede = ""
-    console.log(KæresteElPartnertilstede)
-
-    const BarnElBørntilstede = ""
+    let BarnElBørntilstede;
+    if (answer.barn === true){
+        BarnElBørntilstede = "Ja";
+    }
     console.log(BarnElBørntilstede)
 
-    const Kæledyrtilstede = ""
+    let Kæledyrtilstede;
+    if (answer.kæledyr === true){
+        Kæledyrtilstede = "Ja";
+    }
     console.log(Kæledyrtilstede)
 
-    const BilTilstede = "Bil: Ja"
+    let BilTilstede;
+    if (answer.bil === true){
+        BilTilstede = "Ja";
+    }
     console.log(BilTilstede)
 
-    const OffentligTransportTilstede = " OffentligTransport: Ja"
+    let OffentligTransportTilstede;
+    if (answer.offentligTransport === true){
+        OffentligTransportTilstede = "Ja";
+    }
     console.log(OffentligTransportTilstede)
 
-    const CykelTilstede = "Cykel: Ja"
+    let CykelTilstede;
+    if (answer.cykel === true){
+        CykelTilstede = "Ja";
+    }
     console.log(CykelTilstede)
 
 
-    let filterforBil = data.filter((datum) => datum.Bil <= BilTilstede)
-    let filterforCykel = data.filter((datum) => datum.Cykel <= CykelTilstede)
-    let filterforOffentligtransport= data.filter((datum) => datum.OffentligTransport <= OffentligTransportTilstede)
-    let
+    let resultforKæresteElPartner = data.filter((datum) => datum.KæresteEllerPartner === kæresteEllerPartnerTilstede);
+    console.log(resultforKæresteElPartner);
+    return resultforKæresteElPartner;
 
-    return data
+    let resultforBarnElBørn = data.filter((datum) => datum.BarnEllerBørn === BarnElBørntilstede);
+    console.log(resultforBarnElBørn)
+    return resultforBarnElBørn
 
-    .filter((datum) => datum.Bil <= BilTilstede)
-    .filter((datum) => datum.Cykel <= CykelTilstede)
-    .filter((datum) => datum.OffentligTransport <= OffentligTransportTilstede)
+    let resultforKæledyr = data.filter((datum) => datum.Kæledyr === Kæledyrtilstede)
+    console.log(resultforKæledyr)
+    return resultforKæledyr
 
+    let resultforBil = data.filter((datum) => datum.Bil === BilTilstede)
+    console.log(resultforBil)
+    return resultforBil
+
+    let resultforoffTransport = data.filter((datum) => datum.OffentligTransport === OffentligTransportTilstede)
+    console.log(resultforoffTransport)
+    return resultforoffTransport
+
+    let resultforCykel = data.filter((datum) => datum.Cykel === CykelTilstede)
+    console.log(resultforCykel)
+    return resultforCykel
 
 }
-
- */
-
-
-function filterCheckboxes(clickedBox) {
-    // Get the value of the clicked checkbox
-    var clickedValue = clickedBox.value;
-    console.log(clickedValue)
-
-    // Loop over all the checkboxes on the page
-    var checkboxes = document.querySelectorAll('input[type="checkbox"]');
-    for (var i = 0; i < checkboxes.length; i++) {
-        var checkbox = checkboxes[i];
-
-        // If the checkbox does not have the same value as the clicked checkbox, then uncheck it
-        if (checkbox.value !== clickedValue) {
-            checkbox.checked = false;
-        }
-    }
-}
-
-var result = filterCheckboxes()
-console.log(result)
-
 
 
 window.addEventListener("load", async () => {
     await toggleVisibility()
     })
+
+
 
