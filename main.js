@@ -1206,9 +1206,15 @@ function results2(data, answer){
 
 }
 
+function toggleVisibility() {
+    var element = document.getElementById("results");
+    element.classList.toggle("hidden");
 
-window.addEventListener("load", async () => {
-    await toggleVisibility()
-    })
+    var h1 = document.getElementById("resulstH1");
+    h1.classList.toggle("hidden");
+
+}
+
+toggleVisibility()
 
 

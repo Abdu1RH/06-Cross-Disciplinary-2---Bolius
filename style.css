@@ -105,6 +105,7 @@ body {
     background: #fff;
     position: relative;
     z-index: 100;
+
 }
 
 
@@ -240,5 +241,3 @@ span p {
 .image-container:hover:after {
     opacity: 1;
 }
-
-
