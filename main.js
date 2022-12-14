@@ -1,6 +1,9 @@
 // Datagrundlag: https://rkr.statistikbank.dk/statbank5a/default.asp?w=1440
+// Område: Kommuner, Ejendomskategori: Parcel-/rækkehuse, Ejerlejlighed, Priser: Nedtagningspriser, Måned: 2022M10
 // UDB020: Boligpriser efter område, ejendomskategori og priser
 // Enhed : Kr. pr. m2
+// Data såsom KæresteEllerPartner, BarnEllerBørn, Kæledyr, Bil, Cykel, OffentligTransport er implementeret
+
 
 let data =
 [
@@ -1000,9 +1003,9 @@ function validatePost() {
     let post = document.getElementById("postNr").value;
     let response = ""
     if (checkIfAvailable(post)) {
-        response = "Tilgængelige boliger findes i området";
+        response = "Tilgængelig(e) boliger findes i området";
     } else {
-        response = "Desværre, ingen tilgængelige boliger i området";
+        response = "Desværre, ingen tilgængelig(e) boliger i området";
     }
     document.getElementById("response").innerHTML = response;
 }
