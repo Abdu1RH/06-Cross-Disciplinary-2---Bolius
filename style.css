@@ -82,9 +82,9 @@ body {
     position: relative;
     z-index: 100;
     padding: 1.25rem;
-    margin-right: 15rem;
-    margin-left: 15rem;
-    margin-top: 4.5rem
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 4.5rem;
 }
 
 
@@ -99,7 +99,6 @@ body {
     background: #fff;
     position: relative;
     z-index: 100;
-    margin-top: 80%;
 }
 
 
