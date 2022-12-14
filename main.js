@@ -1217,5 +1217,3 @@ function toggleVisibility() {
 
 toggleVisibility()
 
-//
-
