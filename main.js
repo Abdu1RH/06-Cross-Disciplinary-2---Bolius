@@ -1,4 +1,5 @@
-//UDB020: Boligpriser efter område, ejendomskategori og priser
+// Datagrundlag: https://rkr.statistikbank.dk/statbank5a/default.asp?w=1440
+// UDB020: Boligpriser efter område, ejendomskategori og priser
 // Enhed : Kr. pr. m2
 
 let data =
@@ -950,24 +951,11 @@ let data =
 ]
 console.log(data)
 
-/*
-function check () {
-
-    const Question1 = document.questionbox.Question1.value;
-
-    const Question2 = document.questionbox.Question2.value;
-
-    if (Question1 === 2000-2999) {
-        "Postnummer" > 2000 <
-    }
-
-}
- */
 
 const button = document.querySelector('#button');
-//console.log(button)
+
 button.addEventListener("click", function (){
-    //console.log("Indsend klikket")
+
 
     const userinput = {}
 
@@ -984,8 +972,6 @@ button.addEventListener("click", function (){
 
     userinput.bil =document.querySelector("#Bil").checked
 
-    //userinput.bil1 = document.querySelector("#Bil1").checked
-
     userinput.offentligTransport = document.querySelector("#OffentligTransport").checked
 
     userinput.cykel = document.querySelector("#Cykel").checked
@@ -993,23 +979,19 @@ button.addEventListener("click", function (){
     userinput.ingen = document.querySelector("#Ingenaffølgende").checked ?? false
 
     console.log(userinput)
+
     const filteredResults = results(data, userinput);
 
     const filteredPrices = results1(filteredResults, userinput)
-    //console.log("************************************")
-    //console.log(filteredPrices)
 
     const filteredQuestions = results2(filteredPrices, userinput)
-    //console.log(filteredQuestions)
 })
 
 
-//Postnummer
 function checkIfAvailable(Post) {
     let postNummer = data.map((hus)=>{
         return hus.Postnummer;
     })
-    //console.log(postNummer.indexOf(parseInt(Post)))
     return(postNummer.indexOf(parseInt(Post)) != -1)
 }
 
@@ -1026,26 +1008,8 @@ function validatePost() {
 }
 
 
-/*
-answer = {
-    income: 25000,
-}
- */
-
-/*
-function results(data, answer) {
-    const maxRent = 0.45 * answer.income
-
-    return data
-        .filter((datum) => datum.ParcelEllerRækkehuse <= maxRent)
-
-
-}
-
- */
 function results(data, answer) {
     const userPostnummer = answer.postNr
-    //console.log(userPostnummer)
 
     const minPostnummer = (answer.postNr*1) - 500
     console.log(minPostnummer)
@@ -1056,20 +1020,14 @@ function results(data, answer) {
     const userIndkomst = answer.indkomst
     console.log(userIndkomst)
 
-    //console.log(answer)
 
     let x = data.filter((datum) => datum.Postnummer > minPostnummer).filter((datum) => datum.Postnummer < Maxpostnummer)
-    //console.log(x)
 
     return data
-        //.filter((datum) => datum.Postnummer > minPostnummer)
-        //.filter((datum) => datum.Postnummer < Maxpostnummer)
 
         .filter(function(datum) {return datum.Postnummer > minPostnummer && datum.Postnummer < Maxpostnummer})
 
 }
-
-
 
 function results1(data, answer){
 
@@ -1087,57 +1045,20 @@ function results1(data, answer){
     const maxParcelEllerRækkehusePris = (answer.indkomst*1) + 10000
     console.log(maxParcelEllerRækkehusePris)
 
-        /*
-        console.log("Virker dette??")
-        console.log(minEjerlejlighedspris)
-        console.log(data[0].Ejerlejlighed);
-        console.log(data.filter((datum) => datum.Ejerlejlighed.Ejerlejlighed != minEjerlejlighedspris))
-        console.log("Efter??")
-        */
 
-/*
-    let filterEjerlejlighed = data.filter((datum) => datum.Ejerlejlighed > minEjerlejlighedspris)//
-    let filterMaxEjerlejlighed = data.filter((datum) => datum.Ejerlejlighed < maxEjerlejlighedspris)
-        //console.log(filterEjerlejlighed)
-        //console.log(filterMaxEjerlejlighed)
-
-    let filterParcelellerRækkehus = data.filter((datum) => datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris)
-    let filterMaxParcelellerRækkehus = data.filter((datum) => datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris)
-        //console.log(filterParcelellerRækkehus)
-        //console.log(filterMaxParcelellerRækkehus)
-
- */
     let resultforMinEjerlejlighedspris = data.filter(function(datum) {
         return datum.Ejerlejlighed > minEjerlejlighedspris && datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris
     })
     console.log("resultforMinEjerlejlighedspris");
-    //console.log(resultforMinEjerlejlighedspris);
 
     let resultforMaxEjerlejlighedspris = resultforMinEjerlejlighedspris.filter(function(datum) {
         return datum.Ejerlejlighed < maxEjerlejlighedspris && datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris
     })
-    // Det nyeste array
+
     console.log("resultforMaxEjerlejlighedspris")
     console.log(resultforMaxEjerlejlighedspris);
-    /*
-    let resultforminParcelEllerRækkehusePris = resultforMaxEjerlejlighedspris.filter(function(datum) {return datum.ParcelEllerRækkehuse > minParcelEllerRækkehusePris})
-    console.log(resultforminParcelEllerRækkehusePris)
 
-    let resultformaxParcelEllerRækkehusePris = resultforminParcelEllerRækkehusePris.filter(function(datum) {return datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris})
-    console.log(resultformaxParcelEllerRækkehusePris)
-    */
     return resultforMinEjerlejlighedspris;
-
-    /*
-
-
-    let resultforminParcelEllerRækkehusePris = data.filter(function(datum) {return datum.Ejerlejlighed < maxEjerlejlighedspris})
-    console.log(resultforminParcelEllerRækkehusePris)
-    return resultforminParcelEllerRækkehusePris
-
-    let resultformaxParcelEllerRækkehusePris = data.filter(function(datum) {return datum.ParcelEllerRækkehuse < maxParcelEllerRækkehusePris})
-    console.log(resultformaxParcelEllerRækkehusePris)
-    return resultformaxParcelEllerRækkehusePris*/
 
 }
 
@@ -1216,4 +1137,3 @@ function toggleVisibility() {
 }
 
 toggleVisibility()
-
